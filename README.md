@@ -15,5 +15,6 @@
 
 #### 鸣谢
 - AvalonEdit
+- MindMate
 ...
   
