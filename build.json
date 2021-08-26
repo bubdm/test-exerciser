@@ -1,0 +1,6 @@
+{
+    "version": "release-v1.01-prerelease",
+    "title" : "TestExerciser 1.10 Pre-release for community testing",
+    "description" : "This is a TestExerciser 1.10 pre-release build. ",
+    "prerelease": true
+}
