@@ -1,0 +1,1060 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD2A0891-5F26-4F6E-AFAD-336C456D047A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestExerciser</RootNamespace>
+    <AssemblyName>TestExerciser</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>E:\自动化项目\01-trunk\src\tool\toolInstall\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://172.20.32.147:8080/</UpdateUrl>
+    <SupportUrl>http://172.20.32.147:8080/</SupportUrl>
+    <ErrorReportUrl>http://172.20.32.147:8080/</ErrorReportUrl>
+    <ProductName>TestExerciser</ProductName>
+    <PublisherName>张渊</PublisherName>
+    <SuiteName>TestExerciser</SuiteName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>259</ApplicationRevision>
+    <ApplicationVersion>1.1.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>E:\School\Python</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9C910D4578AACCB32B6E444059E91B2A7F6EF882</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TestExerciser_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>TestExerciser.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>TestExerciser.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin, Version=16.1.14.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lenovo\Desktop\CSkin+16.1.14.2\CSkin 16.1.14.2\CSkin 4.0\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomFontDialog">
+      <HintPath>Binaries\CustomFontDialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TestExerciser.Diary\bin\Debug\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TestExerciser.Diary\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="Ribbon">
+      <HintPath>Binaries\Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TabStrip">
+      <HintPath>..\..\FastColoredTextBox\Tester\bin\Debug\TabStrip.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\TestExerciser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestExerciser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\ColorRandom.cs" />
+    <Compile Include="Logic\DataGridViewRender.cs" />
+    <Compile Include="Logic\FTPClient.cs" />
+    <Compile Include="Logic\ListItem.cs" />
+    <Compile Include="Logic\LoadXml.cs" />
+    <Compile Include="Logic\RadomNamed.cs" />
+    <Compile Include="Logic\GUID.cs" />
+    <Compile Include="Logic\TextAndImageColumn.cs" />
+    <Compile Include="MainBugManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainBugManager.Designer.cs">
+      <DependentUpon>MainBugManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseDesign.Designer.cs">
+      <DependentUpon>ToolCaseDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainCaseManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainCaseManager.Designer.cs">
+      <DependentUpon>MainCaseManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPlatform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPlatform.Designer.cs">
+      <DependentUpon>MainPlatform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainProjectManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainProjectManager.Designer.cs">
+      <DependentUpon>MainProjectManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\BugManagement\ToolBugComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\BugManagement\ToolBugComment.Designer.cs">
+      <DependentUpon>ToolBugComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\BugManagement\ToolBugNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\BugManagement\ToolBugNew.Designer.cs">
+      <DependentUpon>ToolBugNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\BugManagement\ToolBugModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\BugManagement\ToolBugModify.Designer.cs">
+      <DependentUpon>ToolBugModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseImport.Designer.cs">
+      <DependentUpon>ToolCaseImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseModify.Designer.cs">
+      <DependentUpon>ToolCaseModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseReviewDirect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseReviewDirect.Designer.cs">
+      <DependentUpon>ToolCaseReviewDirect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseReviewFromExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseReviewFromExcel.Designer.cs">
+      <DependentUpon>ToolCaseReviewFromExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\ExcelDataReader.cs" />
+    <Compile Include="Logic\AutoComplete.cs" />
+    <Compile Include="Logic\TimeDelay.cs" />
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoAbout.Designer.cs">
+      <DependentUpon>ToolAutoAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoLogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoLogView.Designer.cs">
+      <DependentUpon>ToolAutoLogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoCodePacking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoCodePacking.Designer.cs">
+      <DependentUpon>ToolAutoCodePacking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\DGVPager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tools\DGVPager.Designer.cs">
+      <DependentUpon>DGVPager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\MsgDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\MsgDialog.Designer.cs">
+      <DependentUpon>MsgDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectSetName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectSetName.Designer.cs">
+      <DependentUpon>ToolProjectSetName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectVersion.Designer.cs">
+      <DependentUpon>ToolProjectVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\TaskManagement\ToolTaskNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\TaskManagement\ToolTaskNew.Designer.cs">
+      <DependentUpon>ToolTaskNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\TaskManagement\ToolTaskSelectCases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\TaskManagement\ToolTaskSelectCases.Designer.cs">
+      <DependentUpon>ToolTaskSelectCases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ToolBalloon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ToolUpLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ToolUpLoad.Designer.cs">
+      <DependentUpon>ToolUpLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserTeamMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserTeamMembers.Designer.cs">
+      <DependentUpon>UserTeamMembers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainTaskManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainTaskManager.Designer.cs">
+      <DependentUpon>MainTaskManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainUserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainUserManager.Designer.cs">
+      <DependentUpon>MainUserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWorkManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWorkManager.Designer.cs">
+      <DependentUpon>MainWorkManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolCaseNew.Designer.cs">
+      <DependentUpon>ToolCaseNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ToolSelectProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ToolSelectProject.Designer.cs">
+      <DependentUpon>ToolSelectProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolSelectModeForCaseReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaseManagement\ToolSelectModeForCaseReview.Designer.cs">
+      <DependentUpon>ToolSelectModeForCaseReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ToolSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tools\ToolSearch.Designer.cs">
+      <DependentUpon>ToolSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectCommit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectCommit.Designer.cs">
+      <DependentUpon>ToolProjectCommit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectModify.Designer.cs">
+      <DependentUpon>ToolProjectModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ProjectManagement\ToolProjectStruct.Designer.cs">
+      <DependentUpon>ToolProjectStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\RegexInfo.cs" />
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoCleanScripts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoCleanScripts.Designer.cs">
+      <DependentUpon>ToolAutoCleanScripts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ToolHotkeysEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tools\ToolHotkeysEditor.Designer.cs">
+      <DependentUpon>ToolHotkeysEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoNewFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoNewFolder.Designer.cs">
+      <DependentUpon>ToolAutoNewFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoNewSolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoNewSolution.Designer.cs">
+      <DependentUpon>ToolAutoNewSolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserSelectDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserSelectDB.Designer.cs">
+      <DependentUpon>UserSelectDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserAuthentication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserAuthentication.Designer.cs">
+      <DependentUpon>UserAuthentication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserChangePSD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserChangePSD.Designer.cs">
+      <DependentUpon>UserChangePSD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserChangeUserEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserChangeUserEmail.Designer.cs">
+      <DependentUpon>UserChangeUserEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserChangeUserFullName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserChangeUserFullName.Designer.cs">
+      <DependentUpon>UserChangeUserFullName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoExcelReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AutoTestingManagement\ToolAutoExcelReader.Designer.cs">
+      <DependentUpon>ToolAutoExcelReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainAutoTesting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainAutoTesting.Designer.cs">
+      <DependentUpon>MainAutoTesting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\ManageDB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\UserRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserRegister.Designer.cs">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\SendMail.cs" />
+    <Compile Include="User\UserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserInfo.Designer.cs">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserResetPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserResetPwd.Designer.cs">
+      <DependentUpon>UserResetPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ribbon\GalleryIconPropertySet.cs" />
+    <Compile Include="View\Ribbon\GalleryNodeStylePropertySet.cs" />
+    <Compile Include="View\Ribbon\Ribbon.Controls.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ribbon.Controls.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ribbon\Ribbon.cs" />
+    <Compile Include="View\Ribbon\RibbonMarkupCommands.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RibbonMarkupCommands.tt</DependentUpon>
+    </Compile>
+    <Content Include="Resources\ajax-loader.gif" />
+    <None Include="Resources\Ascending Sorting-32.png" />
+    <None Include="Resources\Ascending Sorting-321.png" />
+    <Content Include="Resources\breakpoints.PNG" />
+    <Content Include="Resources\close.PNG" />
+    <Content Include="Resources\collapse.PNG" />
+    <None Include="Resources\cut_red_small.png" />
+    <None Include="Resources\cut_small.png" />
+    <None Include="Resources\cut_red_small1.png" />
+    <None Include="Resources\cut_small1.png" />
+    <Content Include="Resources\debug.PNG" />
+    <Content Include="Resources\delete.PNG" />
+    <None Include="Resources\Descending Sorting-32.png" />
+    <None Include="Resources\Descending Sorting-321.png" />
+    <Content Include="Resources\down.PNG" />
+    <Content Include="Resources\ExpandAll.PNG" />
+    <Content Include="Resources\export.PNG" />
+    <Content Include="Resources\FNDJLFCN.gif" />
+    <Content Include="Resources\FNDJLFOK.gif" />
+    <Content Include="Resources\help.PNG" />
+    <Content Include="Resources\icon-run-white.d51728d.gif" />
+    <Content Include="Resources\ignored.PNG" />
+    <Content Include="Resources\import.PNG" />
+    <Content Include="Resources\muteBreakPoint.PNG" />
+    <None Include="Resources\Node Format Box.png" />
+    <None Include="Resources\Node Format Bubble.png" />
+    <None Include="Resources\Node Format Bullet.png" />
+    <None Include="Resources\Node Format Fork.png" />
+    <None Include="Resources\Node Format Box1.png" />
+    <Content Include="Resources\on-t.PNG" />
+    <Content Include="Resources\pin.PNG" />
+    <Content Include="Resources\rerunerr.PNG" />
+    <Content Include="Resources\restart.PNG" />
+    <Content Include="Resources\restore.PNG" />
+    <Content Include="Resources\scroll.PNG" />
+    <Content Include="Resources\setting.PNG" />
+    <Content Include="Resources\sortA.PNG" />
+    <Content Include="Resources\sortD.PNG" />
+    <Content Include="Resources\start.PNG" />
+    <Content Include="Resources\stop-f.PNG" />
+    <Content Include="Resources\stop-t.PNG" />
+    <Content Include="Resources\toggle.PNG" />
+    <Content Include="Resources\up.PNG" />
+    <Content Include="Resources\wait-f.PNG" />
+    <Content Include="Resources\warp.PNG" />
+    <Content Include="TestExerciser.ico" />
+    <Content Include="Tools\Sources\spyxx.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Sources\spyxxhk.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Sources\spyxxhk_amd64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Sources\spyxx_amd64.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Ribbon\Res\Add Link2-32.bmp" />
+    <Content Include="View\Ribbon\Res\Add Link2-32.png" />
+    <Content Include="View\Ribbon\Res\align_compact.bmp" />
+    <Content Include="View\Ribbon\Res\Alphabetical Sorting-32.bmp" />
+    <Content Include="View\Ribbon\Res\Alphabetical Sorting-32.png" />
+    <Content Include="View\Ribbon\Res\Ascending Sorting-32.bmp" />
+    <Content Include="View\Ribbon\Res\Ascending Sorting-32.png" />
+    <Content Include="View\Ribbon\Res\Border Color-16.bmp" />
+    <Content Include="View\Ribbon\Res\Border Color-16.png" />
+    <Content Include="View\Ribbon\Res\Calendar-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calendar-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Add-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Add-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Complete-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Complete-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Next Month-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Next Month-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Next Quarter-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Next Quarter-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Next Week-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Next Week-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Remove-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Remove-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Today-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Today-32.png" />
+    <Content Include="View\Ribbon\Res\Calender Tomorrow-32.bmp" />
+    <Content Include="View\Ribbon\Res\Calender Tomorrow-32.png" />
+    <Content Include="View\Ribbon\Res\Center Direction-32.bmp" />
+    <Content Include="View\Ribbon\Res\Center Direction-32.png" />
+    <Content Include="View\Ribbon\Res\clear_formatting-large.bmp" />
+    <Content Include="View\Ribbon\Res\clear_formatting-large.png" />
+    <Content Include="View\Ribbon\Res\clear_formatting.bmp" />
+    <Content Include="View\Ribbon\Res\clear_formatting.png" />
+    <Content Include="View\Ribbon\Res\Close3.bmp" />
+    <Content Include="View\Ribbon\Res\Close3.png" />
+    <Content Include="View\Ribbon\Res\Close4.bmp" />
+    <Content Include="View\Ribbon\Res\Close4.png" />
+    <Content Include="View\Ribbon\Res\CollapseAll-sua.bmp" />
+    <Content Include="View\Ribbon\Res\CollapseAll-sua.png" />
+    <Content Include="View\Ribbon\Res\cross-script.bmp" />
+    <Content Include="View\Ribbon\Res\cut.bmp" />
+    <Content Include="View\Ribbon\Res\cut.png" />
+    <Content Include="View\Ribbon\Res\cut_red.bmp" />
+    <Content Include="View\Ribbon\Res\cut_red.png" />
+    <Content Include="View\Ribbon\Res\cut_red_small.bmp" />
+    <Content Include="View\Ribbon\Res\cut_red_small.png" />
+    <Content Include="View\Ribbon\Res\cut_small.bmp" />
+    <Content Include="View\Ribbon\Res\cut_small.png" />
+    <Content Include="View\Ribbon\Res\Delete Link-32.bmp" />
+    <Content Include="View\Ribbon\Res\Delete Link-32.png" />
+    <Content Include="View\Ribbon\Res\Descending Sorting-32.bmp" />
+    <Content Include="View\Ribbon\Res\Descending Sorting-32.png" />
+    <Content Include="View\Ribbon\Res\Down-32.bmp" />
+    <Content Include="View\Ribbon\Res\Down-32.png" />
+    <Content Include="View\Ribbon\Res\edit.bmp" />
+    <Content Include="View\Ribbon\Res\Exit.bmp" />
+    <Content Include="View\Ribbon\Res\Exit.png" />
+    <Content Include="View\Ribbon\Res\ExpandAll-sua.bmp" />
+    <Content Include="View\Ribbon\Res\ExpandAll-sua.png" />
+    <Content Include="View\Ribbon\Res\ExpandMapLevel-sua.bmp" />
+    <Content Include="View\Ribbon\Res\ExpandMapLevel-sua.png" />
+    <Content Include="View\Ribbon\Res\File-32.bmp" />
+    <Content Include="View\Ribbon\Res\File-32.png" />
+    <Content Include="View\Ribbon\Res\Folder2-32.bmp" />
+    <Content Include="View\Ribbon\Res\Folder2-32.png" />
+    <Content Include="View\Ribbon\Res\FontBackgroundColor.SmallHighContrastImage.bmp" />
+    <Content Include="View\Ribbon\Res\FontBackgroundColor.SmallHighContrastImage.png" />
+    <Content Include="View\Ribbon\Res\FontBackgroundColor.SmallImage.bmp" />
+    <Content Include="View\Ribbon\Res\FontBackgroundColor.SmallImage.png" />
+    <Content Include="View\Ribbon\Res\format_painter.bmp" />
+    <Content Include="View\Ribbon\Res\Horizontal Line-16.bmp" />
+    <Content Include="View\Ribbon\Res\Horizontal Line-16.png" />
+    <Content Include="View\Ribbon\Res\JPG Filled-32.bmp" />
+    <Content Include="View\Ribbon\Res\JPG Filled-32.png" />
+    <Content Include="View\Ribbon\Res\Line Width-16.bmp" />
+    <Content Include="View\Ribbon\Res\Line Width-16.png" />
+    <Content Include="View\Ribbon\Res\New16.bmp" />
+    <Content Include="View\Ribbon\Res\New32.bmp" />
+    <Content Include="View\Ribbon\Res\Node Format Box.png" />
+    <Content Include="View\Ribbon\Res\Node Format Bubble.png" />
+    <Content Include="View\Ribbon\Res\Node Format Bullet.png" />
+    <Content Include="View\Ribbon\Res\Node Format Fork.png" />
+    <Content Include="View\Ribbon\Res\node-insert-child.bmp" />
+    <Content Include="View\Ribbon\Res\node-insert-next.bmp" />
+    <Content Include="View\Ribbon\Res\node-insert-previous.bmp" />
+    <Content Include="View\Ribbon\Res\node-insert.bmp" />
+    <Content Include="View\Ribbon\Res\node-select-all.bmp" />
+    <Content Include="View\Ribbon\Res\node-select-all.png" />
+    <Content Include="View\Ribbon\Res\node-select-child.bmp" />
+    <Content Include="View\Ribbon\Res\node-select-child.png" />
+    <Content Include="View\Ribbon\Res\node-select-children.bmp" />
+    <Content Include="View\Ribbon\Res\node-select-children.png" />
+    <Content Include="View\Ribbon\Res\node-select-descendents.bmp" />
+    <Content Include="View\Ribbon\Res\node-select-descendents.png" />
+    <Content Include="View\Ribbon\Res\node-select-level.bmp" />
+    <Content Include="View\Ribbon\Res\node-select-level.png" />
+    <Content Include="View\Ribbon\Res\node-select.bmp" />
+    <Content Include="View\Ribbon\Res\node-select.png" />
+    <Content Include="View\Ribbon\Res\North Direction-32.bmp" />
+    <Content Include="View\Ribbon\Res\North Direction-32.png" />
+    <Content Include="View\Ribbon\Res\open16.bmp" />
+    <Content Include="View\Ribbon\Res\Open32.bmp" />
+    <Content Include="View\Ribbon\Res\page_white_copy.bmp" />
+    <Content Include="View\Ribbon\Res\page_white_copy.png" />
+    <Content Include="View\Ribbon\Res\page_white_paste.bmp" />
+    <Content Include="View\Ribbon\Res\paste_plain.bmp" />
+    <Content Include="View\Ribbon\Res\PNG Filled-32.bmp" />
+    <Content Include="View\Ribbon\Res\PNG Filled-32.png" />
+    <Content Include="View\Ribbon\Res\Redo-32.bmp" />
+    <Content Include="View\Ribbon\Res\Redo-32.png" />
+    <Content Include="View\Ribbon\Res\save16.bmp" />
+    <Content Include="View\Ribbon\Res\Save32.bmp" />
+    <Content Include="View\Ribbon\Res\SaveAll32.bmp" />
+    <Content Include="View\Ribbon\Res\SaveAll32.png" />
+    <Content Include="View\Ribbon\Res\SaveAllHS.bmp" />
+    <Content Include="View\Ribbon\Res\SaveAllHS.png" />
+    <Content Include="View\Ribbon\Res\SaveAsHH.bmp" />
+    <Content Include="View\Ribbon\Res\SaveAsHH.png" />
+    <Content Include="View\Ribbon\Res\smartart_change_color_gallery-16.bmp" />
+    <Content Include="View\Ribbon\Res\smartart_change_color_gallery-16.png" />
+    <Content Include="View\Ribbon\Res\smartart_change_color_gallery-32.bmp" />
+    <Content Include="View\Ribbon\Res\smartart_change_color_gallery-32.png" />
+    <Content Include="View\Ribbon\Res\Sort By Creation Date-32.bmp" />
+    <Content Include="View\Ribbon\Res\Sort By Creation Date-32.png" />
+    <Content Include="View\Ribbon\Res\Sort By Modified Date-32.bmp" />
+    <Content Include="View\Ribbon\Res\Sort By Modified Date-32.png" />
+    <Content Include="View\Ribbon\Res\sort-by-node-count.bmp" />
+    <Content Include="View\Ribbon\Res\sort-by-node-count.png" />
+    <Content Include="View\Ribbon\Res\sort-by-task.bmp" />
+    <Content Include="View\Ribbon\Res\sort-by-task.png" />
+    <Content Include="View\Ribbon\Res\South Direction-32.bmp" />
+    <Content Include="View\Ribbon\Res\South Direction-32.png" />
+    <Content Include="View\Ribbon\Res\sticky-note.bmp" />
+    <Content Include="View\Ribbon\Res\sticky-note.png" />
+    <Content Include="View\Ribbon\Res\Todo List-32.bmp" />
+    <Content Include="View\Ribbon\Res\Todo List-32.png" />
+    <Content Include="View\Ribbon\Res\ToggleExpandBranch-sua.bmp" />
+    <Content Include="View\Ribbon\Res\ToggleExpandBranch-sua.png" />
+    <Content Include="View\Ribbon\Res\ToggleExpandCurrent-sua.bmp" />
+    <Content Include="View\Ribbon\Res\ToggleExpandCurrent-sua.png" />
+    <Content Include="View\Ribbon\Res\Undo-32.bmp" />
+    <Content Include="View\Ribbon\Res\Undo-32.png" />
+    <Content Include="View\Ribbon\Res\Up-32.bmp" />
+    <Content Include="View\Ribbon\Res\Up-32.png" />
+    <Content Include="View\Ribbon\Ribbon.Controls.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>Ribbon.Controls.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Tools\MsgDialog.resx">
+      <DependentUpon>MsgDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ribbon\RibbonMarkup.xml" />
+    <Content Include="View\Ribbon\RibbonMarkupCommands.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>RibbonMarkupCommands.cs</LastGenOutput>
+    </Content>
+    <Content Include="View\Ribbon\RibbonMarkupCommands.xslt" />
+    <EmbeddedResource Include="MainBugManager.resx">
+      <DependentUpon>MainBugManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CaseManagement\ToolCaseDesign.resx">
+      <DependentUpon>ToolCaseDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainCaseManager.resx">
+      <DependentUpon>MainCaseManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPlatform.resx">
+      <DependentUpon>MainPlatform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainProjectManager.resx">
+      <DependentUpon>MainProjectManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\BugManagement\ToolBugComment.resx">
+      <DependentUpon>ToolBugComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\BugManagement\ToolBugNew.resx">
+      <DependentUpon>ToolBugNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\BugManagement\ToolBugModify.resx">
+      <DependentUpon>ToolBugModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CaseManagement\ToolCaseImport.resx">
+      <DependentUpon>ToolCaseImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CaseManagement\ToolCaseModify.resx">
+      <DependentUpon>ToolCaseModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CaseManagement\ToolCaseReviewDirect.resx">
+      <DependentUpon>ToolCaseReviewDirect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CaseManagement\ToolCaseReviewFromExcel.resx">
+      <DependentUpon>ToolCaseReviewFromExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoAbout.resx">
+      <DependentUpon>ToolAutoAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoAbout.zh-Hans.resx">
+      <DependentUpon>ToolAutoAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoLogView.resx">
+      <DependentUpon>ToolAutoLogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoCodePacking.resx">
+      <DependentUpon>ToolAutoCodePacking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\DGVPager.resx">
+      <DependentUpon>DGVPager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ProjectManagement\ToolProjectSetName.resx">
+      <DependentUpon>ToolProjectSetName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ProjectManagement\ToolProjectVersion.resx">
+      <DependentUpon>ToolProjectVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\TaskManagement\ToolTaskNew.resx">
+      <DependentUpon>ToolTaskNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\TaskManagement\ToolTaskSelectCases.resx">
+      <DependentUpon>ToolTaskSelectCases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ToolBalloon.resx">
+      <DependentUpon>ToolBalloon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ToolUpLoad.resx">
+      <DependentUpon>ToolUpLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserTeamMembers.resx">
+      <DependentUpon>UserTeamMembers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainTaskManager.resx">
+      <DependentUpon>MainTaskManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainUserManager.resx">
+      <DependentUpon>MainUserManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWorkManager.resx">
+      <DependentUpon>MainWorkManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Tools\CaseManagement\ToolCaseNew.resx">
+      <DependentUpon>ToolCaseNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ToolSelectProject.resx">
+      <DependentUpon>ToolSelectProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CaseManagement\ToolSelectModeForCaseReview.resx">
+      <DependentUpon>ToolSelectModeForCaseReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ToolSearch.resx">
+      <DependentUpon>ToolSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ProjectManagement\ToolProjectCommit.resx">
+      <DependentUpon>ToolProjectCommit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ProjectManagement\ToolProjectModify.resx">
+      <DependentUpon>ToolProjectModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ProjectManagement\ToolProjectStruct.resx">
+      <DependentUpon>ToolProjectStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoCleanScripts.resx">
+      <DependentUpon>ToolAutoCleanScripts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ToolHotkeysEditor.resx">
+      <DependentUpon>ToolHotkeysEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoNewFolder.resx">
+      <DependentUpon>ToolAutoNewFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoNewSolution.resx">
+      <DependentUpon>ToolAutoNewSolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserSelectDB.resx">
+      <DependentUpon>UserSelectDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserAuthentication.resx">
+      <DependentUpon>UserAuthentication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserChangePSD.resx">
+      <DependentUpon>UserChangePSD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserChangeUserEmail.resx">
+      <DependentUpon>UserChangeUserEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserChangeUserFullName.resx">
+      <DependentUpon>UserChangeUserFullName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AutoTestingManagement\ToolAutoExcelReader.resx">
+      <DependentUpon>ToolAutoExcelReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainAutoTesting.resx">
+      <DependentUpon>MainAutoTesting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserRegister.resx">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserInfo.resx">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserResetPwd.resx">
+      <DependentUpon>UserResetPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Data\TestExerciser.xsc">
+      <DependentUpon>TestExerciser.xsd</DependentUpon>
+    </None>
+    <None Include="Data\TestExerciser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TestExerciser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\TestExerciser.xss">
+      <DependentUpon>TestExerciser.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TestExerciser_TemporaryKey.pfx" />
+    <Content Include="Tools\Sources\AutoIt.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Tools\Sources\spyxx.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tools\Sources\spyxx_amd64.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="View\Ribbon\RibbonMarkup.ribbon" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".tc">
+      <Visible>False</Visible>
+      <Description>测试用例</Description>
+      <Progid>tc</Progid>
+      <DefaultIcon>Resources\tc.ico</DefaultIcon>
+    </FileAssociation>
+    <FileAssociation Include=".ts">
+      <Visible>False</Visible>
+      <Description>测试集</Description>
+      <Progid>ts</Progid>
+      <DefaultIcon>Resources\ts.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\0.png" />
+    <Content Include="Resources\au3.ico" />
+    <Content Include="Resources\auto3help.PNG" />
+    <Content Include="Resources\putty.PNG" />
+    <Content Include="Resources\rightArrow.png" />
+    <Content Include="Resources\1.png" />
+    <Content Include="Resources\2.png" />
+    <Content Include="Resources\3.png" />
+    <Content Include="Resources\4.png" />
+    <Content Include="Resources\5.png" />
+    <Content Include="Resources\6.png" />
+    <Content Include="Resources\7.png" />
+    <Content Include="Resources\8.png" />
+    <Content Include="Resources\9.png" />
+    <Content Include="Resources\cSharp.png" />
+    <Content Include="Resources\folder.png" />
+    <Content Include="Resources\folder_blue.png" />
+    <Content Include="Resources\folder_green.png" />
+    <Content Include="Resources\folder_yellow.png" />
+    <Content Include="Resources\icon.png" />
+    <Content Include="Resources\Icons.16x16.Assembly.png" />
+    <Content Include="Resources\library.png" />
+    <Content Include="Resources\LocationDisabled.png" />
+    <Content Include="Resources\LocationError.png" />
+    <Content Include="Resources\LocationOK.png" />
+    <Content Include="Resources\LocationRunning.png" />
+    <Content Include="Resources\LocationUnknown.png" />
+    <Content Include="Resources\LocationWarning.png" />
+    <Content Include="Resources\Machine.png" />
+    <Content Include="Resources\others.png" />
+    <Content Include="Resources\progress_cancel.png" />
+    <Content Include="Resources\progress_done.png" />
+    <Content Include="Resources\python.png" />
+    <Content Include="Resources\QMAntiFraud.png" />
+    <Content Include="Resources\Quads01.png" />
+    <Content Include="Resources\Quads02.png" />
+    <Content Include="Resources\Quads03.png" />
+    <Content Include="Resources\Quads04.png" />
+    <Content Include="Resources\Quads05.png" />
+    <Content Include="Resources\right.png" />
+    <Content Include="Resources\ruby.png" />
+    <Content Include="Resources\run.png" />
+    <Content Include="Resources\save.PNG" />
+    <Content Include="Resources\selected.png" />
+    <Content Include="Resources\solutionIcon.png" />
+    <Content Include="Resources\table_add.png" />
+    <Content Include="Resources\text.png" />
+    <Content Include="Resources\tortoiseSVN.PNG" />
+    <Content Include="Resources\tstbAddToProj.png" />
+    <Content Include="Resources\tstbCreateDB.png" />
+    <Content Include="Resources\tstbCreateScript.png" />
+    <Content Include="Resources\vb.png" />
+    <Content Include="Resources\WrongAnswer.png" />
+    <Content Include="Resources\Yellow.png" />
+    <Content Include="Tools\Sources\AutoIt.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Sources\inspect_x32.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Sources\inspect_x64.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\unsure.gif" />
+    <None Include="Resources\undo_16x16.png" />
+    <None Include="Resources\backward0_16x16.png" />
+    <None Include="Resources\bookmark--plus.png" />
+    <None Include="Resources\box.png" />
+    <None Include="Resources\bye.gif" />
+    <None Include="Resources\class_libraries.png" />
+    <None Include="Resources\edit-padding-top.png" />
+    <None Include="Resources\forward_16x16.png" />
+    <None Include="Resources\layer--minus.png" />
+    <None Include="Resources\layer--plus.png" />
+    <None Include="Resources\lightning.png" />
+    <None Include="Resources\lol.gif" />
+    <None Include="Resources\property.png" />
+    <None Include="Resources\redo_16x16.png" />
+    <None Include="Resources\rolleyes.gif" />
+    <None Include="Resources\sad_16x16.png" />
+    <None Include="Resources\smile_16x16.png" />
+    <None Include="Resources\DictSearch.png" />
+    <Content Include="Resources\Green.png" />
+    <Content Include="Resources\Grey.png" />
+    <Content Include="Resources\Red.png" />
+    <Content Include="Resources\tc.ico" />
+    <Content Include="Resources\ts.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestExerciser.Design\TestExerciser.Design.csproj">
+      <Project>{5940ee6d-1ef0-4745-9983-ba0f9b9fd5cd}</Project>
+      <Name>TestExerciser.Design</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestExerciser.Editor\TestExerciser.Editor.csproj">
+      <Project>{6dd14a85-ccfc-4774-bd26-0f5772512319}</Project>
+      <Name>TestExerciser.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Binaries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"C:\Program Files (x86)\Windows Kits\8.1\bin\x86\UICC.exe" "$(ProjectDir)View\Ribbon\RibbonMarkup.xml" "$(ProjectDir)View\Ribbon\RibbonMarkup.bml" /res:"$(ProjectDir)View\Ribbon\RibbonMarkup.rc" 
+
+"C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe" /v "$(ProjectDir)View\Ribbon\RibbonMarkup.rc" 
+
+cmd /c "("$(VS140COMNTOOLS)..\..\VC\bin\vcvars32.bat") &amp;&amp; ("$(VS140COMNTOOLS)..\..\VC\bin\link.exe" /VERBOSE /NOENTRY /DLL /OUT:"$(ProjectDir)View\Ribbon\RibbonMarkup.ribbon" "$(ProjectDir)View\Ribbon\RibbonMarkup.res")"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

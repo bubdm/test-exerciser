@@ -1,0 +1,1821 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+STRINGTABLE 
+BEGIN
+    60001 L"&\x65b0\x5efa" /* LabelTitle ButtonNew_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60002 L"\x521b\x5efa\x65b0\x7684\x6d4b\x8bd5\x65b9\x6848" /* LabelDescription ButtonNew_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60003 L"\x65b0\x5efa" /* TooltipTitle ButtonNew_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60004 L"\x521b\x5efa\x65b0\x7684\x6d4b\x8bd5\x65b9\x6848(Ctrl + N)" /* TooltipDescription ButtonNew_TooltipDescription_RESID: (null) */
+END
+
+60005    BITMAP    "Res\\New16.bmp" /* SmallImages ButtonNew_SmallImages_RESID: (null) */
+60006    BITMAP    "Res\\New32.bmp" /* LargeImages ButtonNew_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60007 L"\x6253\x5f00" /* LabelTitle ButtonOpen_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60008 L"\x6253\x5f00\x5df2\x5b58\x5728\x7684\x6d4b\x8bd5\x65b9\x6848" /* LabelDescription ButtonOpen_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60009 L"\x6253\x5f00" /* TooltipTitle ButtonOpen_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60010 L"\x6253\x5f00\x5df2\x5b58\x5728\x7684\x6d4b\x8bd5\x65b9\x6848(Ctrl + O)" /* TooltipDescription ButtonOpen_TooltipDescription_RESID: (null) */
+END
+
+60011    BITMAP    "Res\\Open16.bmp" /* SmallImages ButtonOpen_SmallImages_RESID: (null) */
+60012    BITMAP    "Res\\Open32.bmp" /* LargeImages ButtonOpen_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60013 L"\x4fdd\x5b58" /* LabelTitle ButtonSave_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60014 L"\x4fdd\x5b58\x5f53\x524d\x6d4b\x8bd5\x65b9\x6848" /* LabelDescription ButtonSave_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60015 L"\x4fdd\x5b58" /* TooltipTitle ButtonSave_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60016 L"\x4fdd\x5b58\x5f53\x524d\x6d4b\x8bd5\x65b9\x6848(Ctrl + S)" /* TooltipDescription ButtonSave_TooltipDescription_RESID: (null) */
+END
+
+60017    BITMAP    "Res\\Save16.bmp" /* SmallImages ButtonSave_SmallImages_RESID: (null) */
+60018    BITMAP    "Res\\Save32.bmp" /* LargeImages ButtonSave_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60019 L"\x53e6\x5b58\x4e3a..." /* LabelTitle SaveAs_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60020 L"\x53e6\x5b58\x4e3a..." /* LabelDescription SaveAs_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60021 L"\x53e6\x5b58\x4e3a..." /* TooltipTitle SaveAs_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60022 L"\x53e6\x5b58\x4e3a..." /* TooltipDescription SaveAs_TooltipDescription_RESID: (null) */
+END
+
+60023    BITMAP    "Res\\SaveAsHH.bmp" /* LargeImages SaveAs_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60024 L"\x5168\x90e8\x4fdd\x5b58" /* LabelTitle SaveAll_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60025 L"\x4fdd\x5b58\x6240\x6709\x65b9\x6848" /* LabelDescription SaveAll_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60026 L"\x4fdd\x5b58\x6240\x6709\x65b9\x6848(Ctrl + Shift + S)" /* TooltipTitle SaveAll_TooltipTitle_RESID: (null) */
+END
+
+60027    BITMAP    "Res\\SaveAllHS.bmp" /* SmallImages SaveAll_SmallImages_RESID: (null) */
+60028    BITMAP    "Res\\SaveAll32.bmp" /* LargeImages SaveAll_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60029 L"\x5bfc\x51fa" /* LabelTitle Export_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60030 L"\x5bfc\x51fa\x683c\x5f0f\x4e3a (PNG)" /* LabelTitle ExportAsPNG_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60031 L"PNG \x683c\x5f0f" /* LabelDescription ExportAsPNG_LabelDescription_RESID: (null) */
+END
+
+60032    BITMAP    "Res\\PNG Filled-32.bmp" /* LargeImages ExportAsPNG_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60033 L"\x5bfc\x51fa\x683c\x5f0f\x4e3a (JPG)" /* LabelTitle ExportAsJPG_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60034 L"Jpeg \x683c\x5f0f" /* LabelDescription ExportAsJPG_LabelDescription_RESID: (null) */
+END
+
+60035    BITMAP    "Res\\JPG Filled-32.bmp" /* LargeImages ExportAsJPG_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60036 L"\x5173\x95ed" /* LabelTitle Close_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60037 L"\x5173\x95ed" /* LabelDescription Close_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60038 L"\x5173\x95ed" /* TooltipTitle Close_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60039 L"\x5173\x95ed\x5f53\x524d\x6d4b\x8bd5\x65b9\x6848." /* TooltipDescription Close_TooltipDescription_RESID: (null) */
+END
+
+60040    BITMAP    "Res\\Close4.bmp" /* SmallImages Close_SmallImages_RESID: (null) */
+60041    BITMAP    "Res\\Close3.bmp" /* LargeImages Close_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60042 L"\x9000\x51fa" /* LabelTitle ButtonExit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60043 L"\x9000\x51fa" /* LabelDescription ButtonExit_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60044 L"Exit" /* TooltipTitle ButtonExit_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60045 L"\x9000\x51fa\x7528\x4f8b\x8bbe\x8ba1(Alt + F4)" /* TooltipDescription ButtonExit_TooltipDescription_RESID: (null) */
+END
+
+60046    BITMAP    "Res\\Exit.bmp" /* SmallImages ButtonExit_SmallImages_RESID: (null) */
+60047    BITMAP    "Res\\Exit.bmp" /* LargeImages ButtonExit_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60048 L"\x6700\x8fd1\x6253\x5f00\x7684\x6d4b\x8bd5\x65b9\x6848" /* LabelTitle RecentItems_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60049 L"\x4e3b\x9875" /* LabelTitle TabHome_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60050 L"\x65b0\x5efa\x8282\x70b9" /* LabelTitle NewNode_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60051 L"\x65b0\x5efa\x5b50\x8282\x70b9" /* LabelTitle NewChildNode_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60052 L"\x521b\x5efa\x65b0\x7684\x5b50\x8282\x70b9(Tab)" /* TooltipDescription NewChildNode_TooltipDescription_RESID: (null) */
+END
+
+60053    BITMAP    "Res\\node-insert-child.bmp" /* LargeImages NewChildNode_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60054 L"\x65b0\x5efa\x591a\x884c\x5b50\x8282\x70b9" /* LabelTitle NewLongNode_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60055 L"\x521b\x5efa\x591a\x884c\x5b50\x8282\x70b9." /* TooltipDescription NewLongNode_TooltipDescription_RESID: (null) */
+END
+
+60056    BITMAP    "Res\\align_compact.bmp" /* SmallImages NewLongNode_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60057 L"\x65b0\x5efa\x4e0a\x4e00\x8282\x70b9" /* LabelTitle NewNodeAbove_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60058 L"\x4e0a\x9762\x521b\x5efa\x7684\x5144\x5f1f\x8282\x70b9(Shift + Enter)" /* TooltipDescription NewNodeAbove_TooltipDescription_RESID: (null) */
+END
+
+60059    BITMAP    "Res\\node-insert-previous.bmp" /* LargeImages NewNodeAbove_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60060 L"\x65b0\x5efa\x4e0b\x4e00\x8282\x70b9" /* LabelTitle NewNodeBelow_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60061 L"\x521b\x5efa\x4e0b\x9762\x7684\x5144\x5f1f\x8282\x70b9(Enter)" /* TooltipDescription NewNodeBelow_TooltipDescription_RESID: (null) */
+END
+
+60062    BITMAP    "Res\\node-insert-next.bmp" /* LargeImages NewNodeBelow_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60063 L"\x65b0\x5efa\x7236\x8282\x70b9" /* LabelTitle NewNodeParent_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60064 L"\x5728\x5f53\x524d\x8282\x70b9\x548c\x5b83\x7684\x7236\x8282\x70b9\x4e4b\x95f4\x521b\x5efa\x4e00\x4e2a\x65b0\x8282\x70b9." /* TooltipDescription NewNodeParent_TooltipDescription_RESID: (null) */
+END
+
+60065    BITMAP    "Res\\node-insert.bmp" /* LargeImages NewNodeParent_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60066 L"\x7f16\x8f91" /* LabelTitle GrpEdit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60067 L"\x7f16\x8f91" /* LabelTitle EditText_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60068 L"\x8282\x70b9\x7684\x7f16\x8f91\x6587\x672c(F2)" /* TooltipDescription EditText_TooltipDescription_RESID: (null) */
+END
+
+60069    BITMAP    "Res\\edit.bmp" /* SmallImages EditText_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60070 L"\x7f16\x8f91\x591a\x884c" /* LabelTitle EditLong_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60071 L"\x5728\x591a\x884c\x7f16\x8f91\x5668\x4e2d\x7f16\x8f91\x8282\x70b9\x7684\x6587\x672c(Alt + Enter)" /* TooltipDescription EditLong_TooltipDescription_RESID: (null) */
+END
+
+60072    BITMAP    "Res\\align_compact.bmp" /* SmallImages EditLong_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60073 L"\x5220\x9664" /* LabelTitle DeleteNode_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60074 L"\x5220\x9664\x9009\x4e2d\x8282\x70b9(Del)" /* TooltipDescription DeleteNode_TooltipDescription_RESID: (null) */
+END
+
+60075    BITMAP    "Res\\cross-script.bmp" /* SmallImages DeleteNode_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60076 L"\x526a\x8d34\x677f" /* LabelTitle GrpClipboard_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60077 L"\x7c98\x8d34" /* LabelTitle Paste_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60078 L"\x7c98\x8d34(Ctrl + V)" /* TooltipDescription Paste_TooltipDescription_RESID: (null) */
+END
+
+60079    BITMAP    "Res\\page_white_paste.bmp" /* LargeImages Paste_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60080 L"\x4ee5\x6587\x672c\x5f62\x5f0f\x7c98\x8d34" /* LabelTitle PasteAsText_LabelTitle_RESID: (null) */
+END
+
+60081    BITMAP    "Res\\paste_plain.bmp" /* SmallImages PasteAsText_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60082 L"\x526a\x5207" /* LabelTitle Cut_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60083 L"\x526a\x5207(Ctrl + X)" /* TooltipDescription Cut_TooltipDescription_RESID: (null) */
+END
+
+60084    BITMAP    "Res\\cut.bmp" /* LargeImages Cut_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60085 L"\x590d\x5236" /* LabelTitle Copy_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60086 L"\x590d\x5236(Ctrl + C)" /* TooltipDescription Copy_TooltipDescription_RESID: (null) */
+END
+
+60087    BITMAP    "Res\\page_white_copy.bmp" /* SmallImages Copy_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60088 L"\x683c\x5f0f\x5237" /* LabelTitle FormatPainter_LabelTitle_RESID: (null) */
+END
+
+60089    BITMAP    "Res\\format_painter.bmp" /* SmallImages FormatPainter_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60090 L"\x5b57\x4f53" /* LabelTitle GrpFont_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60091 L"\x5bcc\x5b57\x4f53" /* LabelTitle RichFont_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60092 L"\x683c\x5f0f" /* LabelTitle GrpFormat_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60093 L"\x80cc\x666f\x989c\x8272" /* LabelTitle BackColor_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60094 L"FH" /* Keytip BackColor_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60095 L"\x6587\x672c\x9ad8\x4eae\x989c\x8272" /* TooltipTitle BackColor_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60096 L"\x8ba9\x6587\x5b57\x770b\x8d77\x6765\x50cf\x662f\x7528\x9ad8\x4eae\x7b14\x5199\x7684." /* TooltipDescription BackColor_TooltipDescription_RESID: (null) */
+END
+
+60097    BITMAP    "Res\\FontBackgroundColor.SmallImage.bmp" /* SmallImages BackColor_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60098 L"\x6e05\x9664\x683c\x5f0f" /* LabelTitle ClearFormatting_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60099 L"\x6e05\x9664\x6240\x6709\x683c\x5f0f" /* TooltipTitle ClearFormatting_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60100 L"\x5220\x9664\x6240\x6709\x683c\x5f0f\xff0c\x5982\x5b57\x4f53\x548c\x989c\x8272." /* TooltipDescription ClearFormatting_TooltipDescription_RESID: (null) */
+END
+
+60101    BITMAP    "Res\\clear_formatting.bmp" /* SmallImages ClearFormatting_SmallImages_RESID: (null) */
+60102    BITMAP    "Res\\clear_formatting-large.bmp" /* LargeImages ClearFormatting_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60103 L"\x56fe\x6807" /* LabelTitle GrpIcons_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60104 L"\x56fe\x6807" /* LabelTitle IconsGallery_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60105 L"\x79fb\x9664\x6700\x540e\x4e00\x4e2a\x56fe\x6807" /* LabelTitle RemoveLastIcon_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60106 L"\x4ece\x9009\x5b9a\x8282\x70b9\x5220\x9664\x6700\x8fd1\x6dfb\x52a0\x7684\x56fe\x6807" /* TooltipDescription RemoveLastIcon_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60107 L"\x79fb\x9664\x6240\x6709\x56fe\x6807" /* LabelTitle RemoveAllIcons_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60108 L"\x5220\x9664\x6240\x9009\x8282\x70b9\x4e0a\x7684\x6240\x6709\x56fe\x6807" /* TooltipDescription RemoveAllIcons_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60109 L"\x6253\x5f00\x56fe\x6807\x5bf9\x8bdd\x6846 ..." /* LabelTitle LaunchIconsDialog_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60110 L"\x542f\x52a8\x56fe\x6807\x5bf9\x8bdd\x6846\x9009\x62e9\x6216\x81ea\x5b9a\x4e49\x56fe\x6807" /* TooltipDescription LaunchIconsDialog_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60111 L"\x7f16\x8f91" /* LabelTitle TabEdit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60112 L"\x9009\x62e9" /* LabelTitle GrpSelect_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60113 L"\x9009\x62e9\x6240\x6709" /* LabelTitle SelectAll_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60114 L"\x9009\x62e9\x6240\x6709\x8282\x70b9" /* TooltipDescription SelectAll_TooltipDescription_RESID: (null) */
+END
+
+60115    BITMAP    "Res\\node-select-all.bmp" /* SmallImages SelectAll_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60116 L"\x5144\x5f1f\x8282\x70b9" /* LabelTitle SelectSiblings_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60117 L"\x9009\x62e9\x6240\x9009\x8282\x70b9\x7684\x6240\x6709\x5144\x5f1f\x8282\x70b9. \n             \nNote:    \n\n- Select all siblings above (Shift + Page Up) \n- Select all siblings below (Shift + Page Down)" /* TooltipDescription SelectSiblings_TooltipDescription_RESID: (null) */
+END
+
+60118    BITMAP    "Res\\node-select-child.bmp" /* SmallImages SelectSiblings_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60119 L"\x7236\x8282\x70b9" /* LabelTitle SelectAncestors_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60120 L"\x9009\x62e9\x6240\x9009\x8282\x70b9\x7684\x7236\x8282\x70b9\x548c\x7956\x7236\x6bcd\x8282\x70b9." /* TooltipDescription SelectAncestors_TooltipDescription_RESID: (null) */
+END
+
+60121    BITMAP    "Res\\node-select.bmp" /* SmallImages SelectAncestors_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60122 L"\x5b50\x8282\x70b9" /* LabelTitle SelectChildren_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60123 L"\x9009\x62e9\x6240\x6709\x7684\x5b69\x5b50\x8282\x70b9." /* TooltipDescription SelectChildren_TooltipDescription_RESID: (null) */
+END
+
+60124    BITMAP    "Res\\node-select-children.bmp" /* SmallImages SelectChildren_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60125 L"\x540e\x4ee3\x8282\x70b9" /* LabelTitle SelectDescendents_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60126 L"\x9009\x62e9\x6240\x6709\x7684\x540e\x4ee3\xff0c\x5373\x5206\x652f\x8282\x70b9." /* TooltipDescription SelectDescendents_TooltipDescription_RESID: (null) */
+END
+
+60127    BITMAP    "Res\\node-select-descendents.bmp" /* SmallImages SelectDescendents_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60128 L"Upto depth 1" /* LabelTitle SelectDescendentsUpto1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60129 L"Select all descendents upto depth 1 (i.e. children)" /* TooltipDescription SelectDescendentsUpto1_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60130 L"Upto depth 2" /* LabelTitle SelectDescendentsUpto2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60131 L"Select all descendents upto depth 2" /* TooltipDescription SelectDescendentsUpto2_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60132 L"Upto depth 3" /* LabelTitle SelectDescendentsUpto3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60133 L"Select all descendents upto depth 3" /* TooltipDescription SelectDescendentsUpto3_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60134 L"Upto depth 4" /* LabelTitle SelectDescendentsUpto4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60135 L"Select all descendents upto depth 4" /* TooltipDescription SelectDescendentsUpto4_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60136 L"Upto depth 5" /* LabelTitle SelectDescendentsUpto5_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60137 L"Select all descendents upto depth 5" /* TooltipDescription SelectDescendentsUpto5_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60138 L"\x9009\x62e9\x6240\x6709\x8282\x70b9" /* LabelTitle ExpandOnSelect_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60139 L"\x53ea\x6709\x672a\x9009\x4e2d\x7684\x8282\x70b9\x624d\x4f1a\x88ab\x9009\x4e2d." /* TooltipDescription ExpandOnSelect_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60140 L"\x9009\x62e9\x7ea7\x522b" /* LabelTitle SelectLevel_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60141 L"\x4ece\x4e2d\x5fc3\x9009\x62e9\x67d0\x4e2a\x7ea7\x522b\x7684\x6240\x6709\x8282\x70b9." /* TooltipDescription SelectLevel_TooltipDescription_RESID: (null) */
+END
+
+60142    BITMAP    "Res\\node-select-level.bmp" /* LargeImages SelectLevel_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60143 L"Select Level 1" /* LabelTitle SelectLevel1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60144 L"Select nodes at level(depth) 1 from center" /* TooltipDescription SelectLevel1_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60145 L"Select Level 2" /* LabelTitle SelectLevel2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60146 L"Select nodes at level(depth) 2 from center" /* TooltipDescription SelectLevel2_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60147 L"Select Level 3" /* LabelTitle SelectLevel3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60148 L"Select nodes at level(depth) 3 from center" /* TooltipDescription SelectLevel3_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60149 L"Select Level 4" /* LabelTitle SelectLevel4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60150 L"Select nodes at level(depth) 4 from center" /* TooltipDescription SelectLevel4_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60151 L"Select Level 5" /* LabelTitle SelectLevel5_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60152 L"Select nodes at level(depth) 5 from center" /* TooltipDescription SelectLevel5_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60153 L"\x9009\x62e9\x5f53\x524d\x7ea7\x522b" /* LabelTitle SelectLevelCurrent_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60154 L"\x5728\x5f53\x524d\x8282\x70b9\x7684\x7ea7\x522b\x4e0a\x9009\x62e9\x8282\x70b9." /* TooltipDescription SelectLevelCurrent_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60155 L"\x5c55\x5f00 / \x6298\x53e0" /* LabelTitle GrpExpand_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60156 L"\x5c55\x5f00\x5168\x90e8" /* LabelTitle ExpandAll_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60157 L"\x9012\x5f52\x5c55\x5f00\x6240\x6709\x8282\x70b9" /* TooltipDescription ExpandAll_TooltipDescription_RESID: (null) */
+END
+
+60158    BITMAP    "Res\\ExpandAll-sua.bmp" /* SmallImages ExpandAll_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60159 L"\x6298\x53e0\x5168\x90e8" /* LabelTitle CollapseAll_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60160 L"\x9012\x5f52\x6298\x53e0\x6240\x6709\x8282\x70b9" /* TooltipDescription CollapseAll_TooltipDescription_RESID: (null) */
+END
+
+60161    BITMAP    "Res\\CollapseAll-sua.bmp" /* SmallImages CollapseAll_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60162 L"\x5f53\x524d\x8282\x70b9     " /* LabelTitle ToggleCurrent_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60163 L"\x5c55\x5f00/\x6298\x53e0\x5f53\x524d\x8282\x70b9(Space)" /* TooltipDescription ToggleCurrent_TooltipDescription_RESID: (null) */
+END
+
+60164    BITMAP    "Res\\ToggleExpandCurrent-sua.bmp" /* SmallImages ToggleCurrent_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60165 L"\x5206\x652f\x8282\x70b9" /* LabelTitle ToggleBranch_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60166 L"\x9012\x5f52\x5c55\x5f00/\x6298\x53e0\x5f53\x524d\x8282\x70b9" /* TooltipDescription ToggleBranch_TooltipDescription_RESID: (null) */
+END
+
+60167    BITMAP    "Res\\ToggleExpandBranch-sua.bmp" /* SmallImages ToggleBranch_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60168 L"\x5c06\x6d4b\x8bd5\x65b9\x6848\x5c55\x5f00\x5230\x5f53\x524d\x7ea7\x522b" /* LabelTitle ExpandMapToCurrentLevel_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60169 L"\x5c55\x5f00/\x6298\x53e0\x6d4b\x8bd5\x65b9\x6848\x5230\x5f53\x524d\x9009\x5b9a\x8282\x70b9\x7684\x7ea7\x522b" /* TooltipDescription ExpandMapToCurrentLevel_TooltipDescription_RESID: (null) */
+END
+
+60170    BITMAP    "Res\\ExpandMapLevel-sua.bmp" /* SmallImages ExpandMapToCurrentLevel_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60171 L"Expand Map to Level 1" /* LabelTitle ExpandMapToLevel1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60172 L"Expand / Collapse map to level 1" /* TooltipDescription ExpandMapToLevel1_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60173 L"Expand Map to Level 2" /* LabelTitle ExpandMapToLevel2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60174 L"Expand / Collapse map to level 2" /* TooltipDescription ExpandMapToLevel2_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60175 L"Expand Map to Level 3" /* LabelTitle ExpandMapToLevel3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60176 L"Expand / Collapse map to level 3" /* TooltipDescription ExpandMapToLevel3_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60177 L"Expand Map to Level 4" /* LabelTitle ExpandMapToLevel4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60178 L"Expand / Collapse map to level 4" /* TooltipDescription ExpandMapToLevel4_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60179 L"Expand Map to Level 5" /* LabelTitle ExpandMapToLevel5_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60180 L"Expand / Collapse map to level 5" /* TooltipDescription ExpandMapToLevel5_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60181 L"\x5bfc\x822a" /* LabelTitle GrpNavigate_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60182 L"\x5bfc\x822a\x5230\x4e2d\x5fc3" /* LabelTitle NavigateToCenter_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60183 L"\x9009\x62e9\x4e2d\x5fc3\x8282\x70b9" /* LabelDescription NavigateToCenter_LabelDescription_RESID: (null) */
+END
+
+60184    BITMAP    "Res\\Center Direction-32.bmp" /* LargeImages NavigateToCenter_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60185 L"\x5bfc\x822a\x5230\x7b2c\x4e00\x4e2a\x5144\x5f1f\x8282\x70b9" /* LabelTitle NavigateToFirstSibling_LabelTitle_RESID: (null) */
+END
+
+60186    BITMAP    "Res\\North Direction-32.bmp" /* LargeImages NavigateToFirstSibling_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60187 L"\x5bfc\x822a\x5230\x6700\x540e\x4e00\x4e2a\x5144\x5f1f\x8282\x70b9" /* LabelTitle NavigateToLastSibling_LabelTitle_RESID: (null) */
+END
+
+60188    BITMAP    "Res\\South Direction-32.bmp" /* LargeImages NavigateToLastSibling_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60189 L"\x79fb\x52a8" /* LabelTitle GrpMove_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60190 L"\x4e0a\x79fb" /* LabelTitle MoveUp_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60191 L"\x4e0a\x79fb\x9009\x4e2d\x8282\x70b9(Ctrl + Up)" /* TooltipDescription MoveUp_TooltipDescription_RESID: (null) */
+END
+
+60192    BITMAP    "Res\\Up-32.bmp" /* SmallImages MoveUp_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60193 L"\x4e0b\x79fb" /* LabelTitle MoveDown_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60194 L"\x4e0b\x79fb\x9009\x4e2d\x8282\x70b9(Ctrl + Down)" /* TooltipDescription MoveDown_TooltipDescription_RESID: (null) */
+END
+
+60195    BITMAP    "Res\\Down-32.bmp" /* SmallImages MoveDown_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60196 L"\x6392\x5e8f" /* LabelTitle GrpSort_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60197 L"\x6392\x5e8f" /* LabelTitle SortAlphabetic_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60198 L"\x6309\x5b57\x6bcd\x987a\x5e8f\x5bf9\x5b69\x5b50\x8282\x70b9\x6392\x5e8f" /* LabelDescription SortAlphabetic_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60199 L"\x6309\x5b57\x6bcd\x987a\x5e8f\x6392\x5e8f\x5b69\x5b50\x8282\x70b9." /* TooltipDescription SortAlphabetic_TooltipDescription_RESID: (null) */
+END
+
+60200    BITMAP    "Res\\Alphabetical Sorting-32.bmp" /* LargeImages SortAlphabetic_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60201 L"\x6309\x4efb\x52a1\x6392\x5e8f" /* LabelTitle SortDueDate_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60202 L"\x6309\x5230\x671f\x65e5\x671f\x5bf9\x5b69\x5b50\x8282\x70b9\x6392\x5e8f" /* LabelDescription SortDueDate_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60203 L"\x6309\x5230\x671f\x65e5\x671f\x5bf9\x5b69\x5b50\x8282\x70b9\x6392\x5e8f." /* TooltipDescription SortDueDate_TooltipDescription_RESID: (null) */
+END
+
+60204    BITMAP    "Res\\sort-by-task.bmp" /* LargeImages SortDueDate_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60205 L"\x6309\x8282\x70b9\x6570\x6392\x5e8f" /* LabelTitle SortNodeCount_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60206 L"\x6309\x8282\x70b9\x6570\x5bf9\x5b69\x5b50\x8282\x70b9\x6392\x5e8f" /* LabelDescription SortNodeCount_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60207 L"\x6309\x8282\x70b9\x6570\x5bf9\x5b69\x5b50\x8282\x70b9\x6392\x5e8f." /* TooltipDescription SortNodeCount_TooltipDescription_RESID: (null) */
+END
+
+60208    BITMAP    "Res\\sort-by-node-count.bmp" /* LargeImages SortNodeCount_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60209 L"\x6309\x4fee\x6539\x65f6\x95f4\x6392\x5e8f" /* LabelTitle SortModifiedDate_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60210 L"\x6309\x4fee\x6539\x65f6\x95f4\x6392\x5e8f" /* LabelDescription SortModifiedDate_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60211 L"\x6309\x4fee\x6539\x65f6\x95f4\x6392\x5e8f." /* TooltipDescription SortModifiedDate_TooltipDescription_RESID: (null) */
+END
+
+60212    BITMAP    "Res\\Sort By Modified Date-32.bmp" /* LargeImages SortModifiedDate_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60213 L"\x6309\x521b\x5efa\x65f6\x95f4\x6392\x5e8f" /* LabelTitle SortCreateDate_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60214 L"\x6309\x521b\x5efa\x65f6\x95f4\x6392\x5e8f" /* LabelDescription SortCreateDate_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60215 L"\x6309\x521b\x5efa\x65f6\x95f4\x6392\x5e8f." /* TooltipDescription SortCreateDate_TooltipDescription_RESID: (null) */
+END
+
+60216    BITMAP    "Res\\Sort By Creation Date-32.bmp" /* LargeImages SortCreateDate_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60217 L"\x5347\x5e8f/\x964d\x5e8f\x6392\x5e8f" /* LabelTitle SortOrder_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60218 L"\x5347\x5e8f/\x964d\x5e8f\x6392\x5e8f" /* TooltipTitle SortOrder_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60219 L"\x5355\x51fb\x5207\x6362\x6392\x5e8f\x987a\x5e8f:\x5347\x5e8f\x6216\x964d\x5e8f" /* TooltipDescription SortOrder_TooltipDescription_RESID: (null) */
+END
+
+60220    BITMAP    "Res\\Ascending Sorting-32.bmp" /* LargeImages SortOrder_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60221 L"\x64a4\x9500 / \x91cd\x505a" /* LabelTitle GrpUndo_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60222 L"\x64a4\x9500" /* LabelTitle Undo_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60223 L"\x64a4\x9500(Ctrl + Z)" /* TooltipDescription Undo_TooltipDescription_RESID: (null) */
+END
+
+60224    BITMAP    "Res\\Undo-32.bmp" /* LargeImages Undo_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60225 L"\x91cd\x505a" /* LabelTitle Redo_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60226 L"\x91cd\x505a(Ctrl + Y)" /* TooltipDescription Redo_TooltipDescription_RESID: (null) */
+END
+
+60227    BITMAP    "Res\\Redo-32.bmp" /* LargeImages Redo_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60228 L"\x63d2\x5165" /* LabelTitle TabInsert_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60229 L"\x8d85\x94fe\x63a5" /* LabelTitle GrpHyperlink_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60230 L"\x8d85\x94fe\x63a5" /* LabelTitle Hyperlink_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60231 L"\x4f7f\x7528\x6587\x672c\x5b57\x6bb5\x6dfb\x52a0\x6216\x7f16\x8f91\x8d85\x94fe\x63a5(Ctrl + K)" /* TooltipTitle Hyperlink_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60232 L"\x7f51\x7ad9\x6216\x672c\x5730\x6587\x4ef6\x7684\x8d85\x94fe\x63a5." /* TooltipDescription Hyperlink_TooltipDescription_RESID: (null) */
+END
+
+60233    BITMAP    "Res\\Add Link2-32.bmp" /* LargeImages Hyperlink_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60234 L"\x6587\x4ef6" /* LabelTitle HyperlinkFile_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60235 L"\x4f7f\x7528\x6587\x4ef6\x5bf9\x8bdd\x6846\x6dfb\x52a0\x6216\x7f16\x8f91\x8d85\x94fe\x63a5(Ctrl + Shift + K)" /* TooltipTitle HyperlinkFile_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60236 L"\x7f51\x7ad9\x6216\x672c\x5730\x6587\x4ef6\x7684\x8d85\x94fe\x63a5." /* TooltipDescription HyperlinkFile_TooltipDescription_RESID: (null) */
+END
+
+60237    BITMAP    "Res\\File-32.bmp" /* LargeImages HyperlinkFile_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60238 L"\x6587\x4ef6\x5939" /* LabelTitle HyperlinkFolder_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60239 L"\x4f7f\x7528\x6587\x4ef6\x5939\x5bf9\x8bdd\x6846\x6dfb\x52a0\x6216\x7f16\x8f91\x8d85\x94fe\x63a5" /* TooltipTitle HyperlinkFolder_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60240 L"\x7f51\x7ad9\x6216\x672c\x5730\x6587\x4ef6\x7684\x8d85\x94fe\x63a5." /* TooltipDescription HyperlinkFolder_TooltipDescription_RESID: (null) */
+END
+
+60241    BITMAP    "Res\\Folder2-32.bmp" /* LargeImages HyperlinkFolder_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60242 L"\x5220\x9664\x8d85\x94fe\x63a5" /* LabelTitle RemoveHyperlink_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60243 L"\x5220\x9664\x8d85\x94fe\x63a5" /* TooltipTitle RemoveHyperlink_TooltipTitle_RESID: (null) */
+END
+
+60244    BITMAP    "Res\\Delete Link-32.bmp" /* LargeImages RemoveHyperlink_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60245 L"\x7b14\x8bb0" /* LabelTitle GrpNote_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60246 L"\x63d2\x5165\x7b14\x8bb0" /* LabelTitle InsertNote_LabelTitle_RESID: (null) */
+END
+
+60247    BITMAP    "Res\\sticky-note.bmp" /* LargeImages InsertNote_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60248 L"\x4efb\x52a1" /* LabelTitle GrpTask_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60249 L"\x505c\x6b62\x65e5\x671f" /* LabelTitle AddTask_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60250 L"\x4f7f\x7528\x65e5\x7a0b\x8868\x9762\x677f\x5c06\x4efb\x52a1\x6dfb\x52a0\x5230\x9009\x5b9a\x7684\x8282\x70b9..." /* TooltipDescription AddTask_TooltipDescription_RESID: (null) */
+END
+
+60251    BITMAP    "Res\\Calender Add-32.bmp" /* LargeImages AddTask_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60252 L"\x505c\x6b62\x65e5\x671f" /* LabelTitle AddTaskToday_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60253 L"\x5c06\x4efb\x52a1\x6dfb\x52a0\x5230\x9009\x5b9a\x7684\x8282\x70b9\x5e76\x6807\x6ce8\x4eca\x5929" /* TooltipDescription AddTaskToday_TooltipDescription_RESID: (null) */
+END
+
+60254    BITMAP    "Res\\Calender Today-32.bmp" /* LargeImages AddTaskToday_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60255 L"\x660e\x5929" /* LabelTitle AddTaskTomorrow_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60256 L"\x5c06\x4efb\x52a1\x6dfb\x52a0\x5230\x9009\x5b9a\x7684\x8282\x70b9\x5e76\x6807\x6ce8\x660e\x5929" /* TooltipDescription AddTaskTomorrow_TooltipDescription_RESID: (null) */
+END
+
+60257    BITMAP    "Res\\Calender Tomorrow-32.bmp" /* LargeImages AddTaskTomorrow_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60258 L"\x4e0b\x4e00\x5468" /* LabelTitle AddTaskNextWeek_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60259 L"\x5c06\x4efb\x52a1\x6dfb\x52a0\x5230\x9009\x5b9a\x7684\x8282\x70b9\x5e76\x6807\x6ce8\x4e0b\x4e00\x4e2a\x5468" /* TooltipDescription AddTaskNextWeek_TooltipDescription_RESID: (null) */
+END
+
+60260    BITMAP    "Res\\Calender Next Week-32.bmp" /* LargeImages AddTaskNextWeek_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60261 L"\x4e0b\x4e00\x6708" /* LabelTitle AddTaskNextMonth_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60262 L"\x5c06\x4efb\x52a1\x6dfb\x52a0\x5230\x9009\x5b9a\x7684\x8282\x70b9\x5e76\x6807\x6ce8\x4e0b\x4e00\x4e2a\x6708" /* TooltipDescription AddTaskNextMonth_TooltipDescription_RESID: (null) */
+END
+
+60263    BITMAP    "Res\\Calender Next Month-32.bmp" /* LargeImages AddTaskNextMonth_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60264 L"\x4e0b\x4e00\x5b63" /* LabelTitle AddTaskNextQuarter_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60265 L"\x5c06\x4efb\x52a1\x6dfb\x52a0\x5230\x9009\x5b9a\x7684\x8282\x70b9\x5e76\x6807\x6ce8\x4e0b\x4e00\x4e2a\x5b63\x5ea6" /* TooltipDescription AddTaskNextQuarter_TooltipDescription_RESID: (null) */
+END
+
+60266    BITMAP    "Res\\Calender Next Quarter-32.bmp" /* LargeImages AddTaskNextQuarter_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60267 L"\x5b8c\x6210\x4efb\x52a1" /* LabelTitle CompleteTask_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60268 L"\x4e3a\x9009\x5b9a\x7684\x8282\x70b9\x5b8c\x6210\x6807\x8bb0\x4efb\x52a1." /* TooltipDescription CompleteTask_TooltipDescription_RESID: (null) */
+END
+
+60269    BITMAP    "Res\\Calender Complete-32.bmp" /* LargeImages CompleteTask_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60270 L"\x5220\x9664\x4efb\x52a1" /* LabelTitle RemoveTask_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60271 L"\x4ece\x9009\x5b9a\x7684\x8282\x70b9\x5220\x9664\x4efb\x52a1." /* TooltipDescription RemoveTask_TooltipDescription_RESID: (null) */
+END
+
+60272    BITMAP    "Res\\Calender Remove-32.bmp" /* LargeImages RemoveTask_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60273 L"\x683c\x5f0f" /* LabelTitle TabFormat_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60274 L"\x8282\x70b9\x683c\x5f0f" /* LabelTitle GrpNodeFormat_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60275 L"\x8282\x70b9\x683c\x5f0f" /* LabelTitle NodeShape_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60276 L"\x6e05\x9664\x8282\x70b9\x683c\x5f0f" /* LabelTitle ClearShapeFormat_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60277 L"\x6e05\x9664\x56fe\x5f62\x683c\x5f0f\x548c\x4f7f\x7528\x9ed8\x8ba4\x503c." /* TooltipDescription ClearShapeFormat_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60278 L"\x7ebf\x6761\x989c\x8272" /* LabelTitle LineColor_LabelTitle_RESID: (null) */
+END
+
+60279    BITMAP    "Res\\Border Color-16.bmp" /* SmallImages LineColor_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60280 L"\x7ebf\x6761\x56fe\x6848" /* LabelTitle LinePattern_LabelTitle_RESID: (null) */
+END
+
+60281    BITMAP    "Res\\Horizontal Line-16.bmp" /* SmallImages LinePattern_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60282 L"Solid" /* LabelTitle LinePatternSolid_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60283 L"Dashed" /* LabelTitle LinePatternDashed_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60284 L"Dotted" /* LabelTitle LinePatternDotted_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60285 L"Mixed" /* LabelTitle LinePatternMixed_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60286 L"\x7ebf\x6761\x539a\x5ea6" /* LabelTitle LineThickness_LabelTitle_RESID: (null) */
+END
+
+60287    BITMAP    "Res\\Line Width-16.bmp" /* SmallImages LineThickness_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60288 L"1" /* LabelTitle LineThickness1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60289 L"2" /* LabelTitle LineThickness2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60290 L"4" /* LabelTitle LineThickness4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60291 L"\x8282\x70b9\x6837\x5f0f" /* LabelTitle GrpNodeStyle_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60292 L"\x8282\x70b9\x6837\x5f0f" /* LabelTitle NodeStyleGallery_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60293 L"\x6dfb\x52a0\x9009\x62e9\x98ce\x683c" /* LabelTitle CreateNodeStyle_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60294 L"\x6e05\x9664" /* LabelTitle GrpClearFormat_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60295 L"\x89c6\x56fe" /* LabelTitle TabView_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60296 L"\x4efb\x52a1" /* LabelTitle GrpViewTask_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60297 L"\x65e5\x7a0b\x8868" /* LabelTitle ViewCalendar_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60298 L"\x6253\x5f00\x65e5\x7a0b\x8868" /* TooltipTitle ViewCalendar_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60299 L"\x6253\x5f00\x7684\x65e5\x5386\x7a97\x53e3\xff0c\x53ef\x4ee5\x4ece\x6253\x5f00\x7684\x89e3\x51b3\x65b9\x6848\x67e5\x770b\x4efb\x52a1." /* TooltipDescription ViewCalendar_TooltipDescription_RESID: (null) */
+END
+
+60300    BITMAP    "Res\\Calendar-32.bmp" /* LargeImages ViewCalendar_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60301 L"\x4efb\x52a1\x5217\x8868" /* LabelTitle ViewTaskList_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60302 L"Show Task List" /* TooltipTitle ViewTaskList_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60303 L"\x628a\x4efb\x52a1\x5217\x8868\x653e\x5230\x89c6\x56fe\x4e2d(\x53ea\x663e\x793a\x4e0b\x4e2a\x6708\x7684\x4efb\x52a1)." /* TooltipDescription ViewTaskList_TooltipDescription_RESID: (null) */
+END
+
+60304    BITMAP    "Res\\Todo List-32.bmp" /* LargeImages ViewTaskList_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60305 L"\x7b14\x8bb0" /* LabelTitle GrpViewNote_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60306 L"\x7b14\x8bb0" /* LabelTitle ViewNote_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60307 L"\x5c55\x793a\x7b14\x8bb0" /* TooltipTitle ViewNote_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60308 L"\x5c55\x793a\x7b14\x8bb0." /* TooltipDescription ViewNote_TooltipDescription_RESID: (null) */
+END
+
+60309    BITMAP    "Res\\sticky-note.bmp" /* LargeImages ViewNote_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60310 L"\x7b14\x8bb0\x7f16\x8f91\x5668" /* LabelTitle TabGroupNote_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60311 L"\x7b14\x8bb0" /* LabelTitle TabNoteEditor_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60312 L"\x5b57\x4f53" /* LabelTitle GrpNoteFont_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60313 L"\x6bb5\x843d" /* LabelTitle GrpParagraph_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60314 L"\x9879\x76ee\x7b26\x53f7" /* LabelTitle cmdBullets_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60315 L"L1" /* Keytip cmdBullets_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60316 L"\x9879\x76ee\x7b26\x53f7" /* TooltipTitle cmdBullets_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60317 L"\x5f00\x59cb\x4e00\x4e2a\x9879\x76ee\x7b26\x53f7\x5217\x8868." /* TooltipDescription cmdBullets_TooltipDescription_RESID: (null) */
+END
+
+60318    IMAGE    "Res\\p_Bullets.gif" /* LargeImages cmdBullets_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60319 L"\x7f16\x53f7" /* LabelTitle cmdNumbers_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60320 L"L2" /* Keytip cmdNumbers_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60321 L"\x7f16\x53f7" /* TooltipTitle cmdNumbers_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60322 L"\x5f00\x59cb\x4e00\x4e2a\x7f16\x53f7\x5217\x8868." /* TooltipDescription cmdNumbers_TooltipDescription_RESID: (null) */
+END
+
+60323    IMAGE    "Res\\p_Numbers.gif" /* LargeImages cmdNumbers_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60324 L"\x5de6\x5bf9\x9f50" /* LabelTitle cmdAlignLeft_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60325 L"AL" /* Keytip cmdAlignLeft_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60326 L"\x5de6\x5bf9\x9f50" /* TooltipTitle cmdAlignLeft_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60327 L"\x5de6\x5bf9\x9f50." /* TooltipDescription cmdAlignLeft_TooltipDescription_RESID: (null) */
+END
+
+60328    IMAGE    "Res\\p_AlignLeft.gif" /* SmallImages cmdAlignLeft_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60329 L"\x53f3\x5bf9\x9f50" /* LabelTitle cmdAlignRight_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60330 L"AR" /* Keytip cmdAlignRight_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60331 L"\x53f3\x5bf9\x9f50" /* TooltipTitle cmdAlignRight_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60332 L"\x53f3\x5bf9\x9f50." /* TooltipDescription cmdAlignRight_TooltipDescription_RESID: (null) */
+END
+
+60333    IMAGE    "Res\\p_AlignRight.gif" /* LargeImages cmdAlignRight_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60334 L"\x5c45\x4e2d\x5bf9\x9f50" /* LabelTitle cmdAlignCenter_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60335 L"AC" /* Keytip cmdAlignCenter_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60336 L"\x5c45\x4e2d\x5bf9\x9f50" /* TooltipTitle cmdAlignCenter_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60337 L"\x5c45\x4e2d\x5bf9\x9f50." /* TooltipDescription cmdAlignCenter_TooltipDescription_RESID: (null) */
+END
+
+60338    IMAGE    "Res\\p_AlignCenter.gif" /* LargeImages cmdAlignCenter_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60339 L"\x4e24\x7aef\x5bf9\x9f50" /* LabelTitle cmdJustify_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60340 L"AJ" /* Keytip cmdJustify_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60341 L"\x4e24\x7aef\x5bf9\x9f50" /* TooltipTitle cmdJustify_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60342 L"\x5bf9\x9f50\x6587\x672c\x5230\x5de6\x548c\x53f3\x8fb9\x7f18\xff0c\x5728\x5fc5\x8981\x65f6\x6dfb\x52a0\x989d\x5916\x7684\x7a7a\x683c." /* TooltipDescription cmdJustify_TooltipDescription_RESID: (null) */
+END
+
+60343    IMAGE    "Res\\p_AlignCenter.gif" /* LargeImages cmdJustify_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60344 L"\x589e\x52a0\x7f29\x8fdb" /* LabelTitle Indent_LabelTitle_RESID: Increase the indent level of the paragraph */
+END
+
+STRINGTABLE 
+BEGIN
+    60345 L"MI" /* Keytip Indent_Keytip_RESID: Increase the indent level of the paragraph */
+END
+
+STRINGTABLE 
+BEGIN
+    60346 L"\x589e\x52a0\x7f29\x8fdb" /* TooltipTitle Indent_TooltipTitle_RESID: Increase the indent level of the paragraph */
+END
+
+STRINGTABLE 
+BEGIN
+    60347 L"\x589e\x52a0\x6bb5\x843d\x7684\x7f29\x8fdb\x6c34\x5e73." /* TooltipDescription Indent_TooltipDescription_RESID: Increase the indent level of the paragraph */
+END
+
+60348    IMAGE    "Res\\p_Indent.gif" /* LargeImages Indent_LargeImages_RESID: Increase the indent level of the paragraph */
+STRINGTABLE 
+BEGIN
+    60349 L"\x51cf\x5c11\x7f29\x8fdb" /* LabelTitle Outdent_LabelTitle_RESID: Decrease the indent level of the paragraph */
+END
+
+STRINGTABLE 
+BEGIN
+    60350 L"MO" /* Keytip Outdent_Keytip_RESID: Decrease the indent level of the paragraph */
+END
+
+STRINGTABLE 
+BEGIN
+    60351 L"\x51cf\x5c11\x7f29\x8fdb" /* TooltipTitle Outdent_TooltipTitle_RESID: Decrease the indent level of the paragraph */
+END
+
+STRINGTABLE 
+BEGIN
+    60352 L"\x51cf\x5c11\x6bb5\x843d\x7684\x7f29\x8fdb\x6c34\x5e73." /* TooltipDescription Outdent_TooltipDescription_RESID: Decrease the indent level of the paragraph */
+END
+
+60353    IMAGE    "Res\\p_Outdent.gif" /* LargeImages Outdent_LargeImages_RESID: Decrease the indent level of the paragraph */
+STRINGTABLE 
+BEGIN
+    60354 L"\x4ece\x53f3\x5230\x5de6" /* LabelTitle cmdRTLTextBlock_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60355 L"R1" /* Keytip cmdRTLTextBlock_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60356 L"\x5c06\x9009\x5b9a\x7684\x6587\x672c\x7684\x65b9\x5411\x8c03\x6574\x4e3a\x4ece\x53f3\x5411\x5de6." /* TooltipDescription cmdRTLTextBlock_TooltipDescription_RESID: (null) */
+END
+
+60357    IMAGE    "Res\\p_RTLTextBlock.png" /* LargeImages cmdRTLTextBlock_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60358 L"\x4ece\x5de6\x5230\x53f3" /* LabelTitle cmdLTRTextBlock_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60359 L"R2" /* Keytip cmdLTRTextBlock_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60360 L"\x5c06\x9009\x5b9a\x7684\x6587\x672c\x7684\x65b9\x5411\x8c03\x6574\x4e3a\x4ece\x5de6\x5411\x53f3." /* TooltipDescription cmdLTRTextBlock_TooltipDescription_RESID: (null) */
+END
+
+60361    IMAGE    "Res\\p_LTRTextBlock.png" /* LargeImages cmdLTRTextBlock_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60362 L"\x6837\x5f0f" /* LabelTitle GrpNoteStyles_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60363 L"\x6807\x98981" /* LabelTitle NoteHeading1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60364 L"\x6807\x98981" /* TooltipTitle NoteHeading1_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60365 L"\x5e94\x7528\x6807\x98981\x6587\x672c\x6837\x5f0f." /* TooltipDescription NoteHeading1_TooltipDescription_RESID: (null) */
+END
+
+60366    IMAGE    "Res\\heading1.gif" /* LargeImages NoteHeading1_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60367 L"\x6807\x98982" /* LabelTitle NoteHeading2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60368 L"\x6807\x98982" /* TooltipTitle NoteHeading2_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60369 L"\x5e94\x7528\x6807\x98982\x6587\x672c\x6837\x5f0f." /* TooltipDescription NoteHeading2_TooltipDescription_RESID: (null) */
+END
+
+60370    IMAGE    "Res\\heading2.gif" /* LargeImages NoteHeading2_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60371 L"\x6807\x98983" /* LabelTitle NoteHeading3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60372 L"\x6807\x98983" /* TooltipTitle NoteHeading3_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60373 L"\x5e94\x7528\x6807\x98983\x6587\x672c\x6837\x5f0f." /* TooltipDescription NoteHeading3_TooltipDescription_RESID: (null) */
+END
+
+60374    IMAGE    "Res\\heading3.gif" /* LargeImages NoteHeading3_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60375 L"\x6807\x51c6" /* LabelTitle NoteNormal_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60376 L"\x6807\x51c6" /* TooltipTitle NoteNormal_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60377 L"\x5e94\x7528\x6807\x51c6\x7684\x6587\x672c\x6837\x5f0f." /* TooltipDescription NoteNormal_TooltipDescription_RESID: (null) */
+END
+
+60378    IMAGE    "Res\\heading4.gif" /* LargeImages NoteNormal_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60379 L"\x63d2\x5165\x8868" /* LabelTitle NoteInsertTable_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60380 L"T" /* Keytip NoteInsertTable_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60381 L"\x5728\x7b14\x8bb0\x4e2d\x63d2\x5165\x4e00\x5f20\x8868." /* TooltipDescription NoteInsertTable_TooltipDescription_RESID: (null) */
+END
+
+60382    IMAGE    "Res\\ob_table.gif" /* LargeImages NoteInsertTable_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60383 L"\x7f16\x8f91Html\x6e90\x7801" /* LabelTitle NoteEditHtml_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60384 L"\x7f16\x8f91Html\x6e90\x4ee3\x7801." /* TooltipDescription NoteEditHtml_TooltipDescription_RESID: (null) */
+END
+
+60385    BITMAP    "Res\\align_compact.bmp" /* LargeImages NoteEditHtml_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    60386 L"\x8868\x5de5\x5177" /* LabelTitle TabGroupNoteTable_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60387 L"\x5e03\x5c40" /* LabelTitle TabNoteTableLayout_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60388 L"ZP" /* Keytip cmdFormatTablePropertiesGroup_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60389 L"\x81ea\x5b9a\x4e49 &table" /* LabelTitle ModifyTableProperties_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60390 L"\x81ea\x5b9a\x4e49\x8868\x5c5e\x6027." /* TooltipDescription ModifyTableProperties_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60391 L"\x5220\x9664" /* LabelTitle cmdFormatTableEditingGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60392 L"ZD" /* Keytip cmdFormatTableEditingGroup_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60393 L"\x5220\x9664\x884c" /* LabelTitle DeleteRow_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60394 L"DR" /* Keytip DeleteRow_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60395 L"\x5220\x9664\x9009\x4e2d\x884c." /* TooltipDescription DeleteRow_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60396 L"\x5220\x9664\x5217" /* LabelTitle DeleteColumn_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60397 L"DC" /* Keytip DeleteColumn_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60398 L"\x5220\x9664\x9009\x4e2d\x5217." /* TooltipDescription DeleteColumn_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60399 L"\x5220\x9664\x8868" /* LabelTitle DeleteTable_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60400 L"DT" /* Keytip DeleteTable_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60401 L"\x5220\x9664\x8868." /* TooltipDescription DeleteTable_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60402 L"\x63d2\x5165" /* LabelTitle GrpTableInsert_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60403 L"ZI" /* Keytip GrpTableInsert_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60404 L"\x4e0a\x65b9\x63d2\x5165" /* LabelTitle InsertRowAbove_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60405 L"IA" /* Keytip InsertRowAbove_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60406 L"\x5728\x5f53\x524d\x4f4d\x7f6e\x4e0a\x65b9\x63d2\x5165\x4e00\x884c." /* TooltipDescription InsertRowAbove_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60407 L"\x4e0b\x65b9\x63d2\x5165" /* LabelTitle InsertRowBelow_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60408 L"IB" /* Keytip InsertRowBelow_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60409 L"\x5728\x5f53\x524d\x4f4d\x7f6e\x4e0b\x65b9\x63d2\x5165\x4e00\x884c." /* TooltipDescription InsertRowBelow_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60410 L"\x5de6\x8fb9\x63d2\x5165" /* LabelTitle InsertColumnLeft_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60411 L"IL" /* Keytip InsertColumnLeft_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60412 L"\x5728\x5f53\x524d\x4f4d\x7f6e\x7684\x5de6\x8fb9\x63d2\x5165\x4e00\x5217." /* TooltipDescription InsertColumnLeft_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60413 L"\x53f3\x8fb9\x63d2\x5165" /* LabelTitle InsertColumnRight_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60414 L"IR" /* Keytip InsertColumnRight_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60415 L"\x5728\x5f53\x524d\x4f4d\x7f6e\x7684\x53f3\x8fb9\x63d2\x5165\x4e00\x5217." /* TooltipDescription InsertColumnRight_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60416 L"\x79fb\x52a8" /* LabelTitle GrpTableMove_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60417 L"ZM" /* Keytip GrpTableMove_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60418 L"\x5411\x4e0a\x79fb\x52a8" /* LabelTitle MoveRowUp_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60419 L"MA" /* Keytip MoveRowUp_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60420 L"\x5c06\x5f53\x524d\x884c\x4e0e\x4e0a\x9762\x7684\x884c\x4ea4\x6362." /* TooltipDescription MoveRowUp_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60421 L"\x5411\x4e0b\x79fb\x52a8" /* LabelTitle MoveRowDown_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60422 L"MB" /* Keytip MoveRowDown_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60423 L"\x5c06\x5f53\x524d\x884c\x4e0e\x4e0b\x9762\x7684\x884c\x4ea4\x6362." /* TooltipDescription MoveRowDown_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60424 L"\x5411\x5de6\x79fb\x52a8" /* LabelTitle MoveColumnLeft_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60425 L"ML" /* Keytip MoveColumnLeft_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60426 L"\x5c06\x9009\x5b9a\x7684\x5217\x4e0e\x5de6\x8fb9\x7684\x5217\x4ea4\x6362." /* TooltipDescription MoveColumnLeft_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60427 L"\x5411\x53f3\x79fb\x52a8" /* LabelTitle MoveColumnRight_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60428 L"MR" /* Keytip MoveColumnRight_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60429 L"\x5c06\x9009\x5b9a\x7684\x5217\x4e0e\x53f3\x8fb9\x7684\x5217\x4ea4\x6362." /* TooltipDescription MoveColumnRight_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60430 L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60431 L"Label:InternalCmd4" /* LabelTitle InternalCmd4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60432 L"Label:InternalCmd6" /* LabelTitle InternalCmd6_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60433 L"Label:InternalCmd8" /* LabelTitle InternalCmd8_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60434 L"Label:InternalCmd10" /* LabelTitle InternalCmd10_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    60435 L"Label:InternalCmd12" /* LabelTitle InternalCmd12_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "K:\\TestExerciser\\TestExerciser\\TestExerciser\\View\\Ribbon\\RibbonMarkup.bml"

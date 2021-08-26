@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5940EE6D-1EF0-4745-9983-BA0F9B9FD5CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignTE</RootNamespace>
+    <AssemblyName>TestExerciser.Design</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomFontDialog, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Binaries\CustomFontDialog.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.7.2.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.7.2\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Calendar, Version=1.0.5704.28890, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Binaries\System.Windows.Forms.Calendar.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TaskSchedular, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Binaries\TaskSchedular.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet, Version=4.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YamlDotNet.4.3.1\lib\net45\YamlDotNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\NoteEditorCtrl.cs" />
+    <Compile Include="Controller\TabController.cs" />
+    <Compile Include="Debugging\FormDebugHooks.cs" />
+    <Compile Include="MetaModel\Icon.cs" />
+    <Compile Include="MetaModel\NodeStyle.cs" />
+    <Compile Include="MetaModel\StyleImageGenerator.cs" />
+    <Compile Include="Model\AttributeSpec.cs" />
+    <Compile Include="Model\AdvancedProperties.cs" />
+    <Compile Include="Model\MapNode.Attribute.cs" />
+    <Compile Include="Model\ClipboardManager.cs" />
+    <Compile Include="Controller\ContextMenuCtrl.cs" />
+    <Compile Include="Controller\IMainCtrl.cs" />
+    <Compile Include="Controller\MainCtrl.cs" />
+    <Compile Include="Controller\MapViewKeyEventHandler.cs" />
+    <Compile Include="Controller\WinFormsStatusBarCtrl.cs" />
+    <Compile Include="Controller\StatusBarCtrl.cs" />
+    <Compile Include="Controller\INoteEditor.cs" />
+    <Compile Include="Modules\Logging\Log.cs" />
+    <Compile Include="Serialization\MapZipSerializer.cs" />
+    <Compile Include="View\NoteEditing\ClipboardImagePaster.cs" />
+    <Compile Include="View\NoteEditing\ImageLocalPath.cs" />
+    <Compile Include="View\NoteEditing\MimeTypes.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\HtmlImageCreator.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\SelectionHelper.cs" />
+    <Compile Include="View\NoteEditing\PluggableProtocol\ComSupport.cs" />
+    <Compile Include="View\NoteEditing\PluggableProtocol\EmbeddedProtocol.cs" />
+    <Compile Include="View\NoteEditing\ImageLocalProvider.cs" />
+    <Compile Include="View\NoteEditing\PluggableProtocol\ProtocolBase.cs" />
+    <Compile Include="View\NoteEditing\HtmlSourceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NoteEditing\HtmlSourceDialog.Designer.cs">
+      <DependentUpon>HtmlSourceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\NoteEditing\ImageLocalSaver.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\HtmlEditorException.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\HtmlTableHelper.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\UndoUnit.cs" />
+    <Compile Include="View\NoteEditing\NoteMapGlue.cs" />
+    <Compile Include="Debugging\IconListCreator.cs" />
+    <Compile Include="MetaModel\ModelIcon.cs" />
+    <Compile Include="MetaModel\MetaModel.cs" />
+    <Compile Include="Model\IconList.cs" />
+    <Compile Include="Model\MapNodeEnums.cs" />
+    <Compile Include="Model\NodeChangedEventArgs.cs" />
+    <Compile Include="Model\T4MapNodeHelper.cs" />
+    <Compile Include="Modules\Undo\BatchChange.cs" />
+    <Compile Include="Modules\Undo\ChangeFactory.cs" />
+    <Compile Include="Modules\Undo\ChangeManager.cs" />
+    <Compile Include="Modules\Undo\Changes\ImageAlignmentChange.cs" />
+    <Compile Include="Modules\Undo\Changes\ImageChange.cs" />
+    <Compile Include="Modules\Undo\Changes\StrikeoutChange.cs" />
+    <Compile Include="Modules\Undo\Changes\NodeNew.cs" />
+    <Compile Include="Modules\Undo\Changes\NodeAttach.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeDelete.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeAdd.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecListType.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecValueRemove.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecValueAdd.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecType.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecDataType.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecVisibility.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecName.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecDelete.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeSpecAdd.cs" />
+    <Compile Include="Modules\Undo\Changes\AttributeUpdate.cs" />
+    <Compile Include="Modules\Undo\Changes\BackColorChange.cs" />
+    <Compile Include="Modules\Undo\Changes\ColorChange.cs" />
+    <Compile Include="Modules\Undo\Changes\FoldChange.cs" />
+    <Compile Include="Modules\Undo\Changes\FontNameChange.cs" />
+    <Compile Include="Modules\Undo\Changes\FontSizeChange.cs" />
+    <Compile Include="Modules\Undo\Changes\IconRemove.cs" />
+    <Compile Include="Modules\Undo\Changes\IconAdd.cs" />
+    <Compile Include="Modules\Undo\Changes\LineColorChange.cs" />
+    <Compile Include="Modules\Undo\Changes\LinePatternChange.cs" />
+    <Compile Include="Modules\Undo\Changes\LineWidthChange.cs" />
+    <Compile Include="Modules\Undo\Changes\LinkChange.cs" />
+    <Compile Include="Modules\Undo\Changes\MoveDown.cs" />
+    <Compile Include="Modules\Undo\Changes\MoveUp.cs" />
+    <Compile Include="Modules\Undo\Changes\ItalicChange.cs" />
+    <Compile Include="Modules\Undo\Changes\BoldChange.cs" />
+    <Compile Include="Modules\Undo\Changes\NodeDetach.cs" />
+    <Compile Include="Modules\Undo\Changes\NodeDelete.cs" />
+    <Compile Include="Modules\Undo\Changes\NoteTextChange.cs" />
+    <Compile Include="Modules\Undo\Changes\ShapeChange.cs" />
+    <Compile Include="Modules\Undo\Changes\LabelChange.cs" />
+    <Compile Include="Modules\Undo\Changes\TextChange.cs" />
+    <Compile Include="Modules\Undo\IChange.cs" />
+    <Compile Include="Plugins\IPlugin.cs" />
+    <Compile Include="Plugins\IPluginMainMenu.cs" />
+    <Compile Include="Plugins\IPluginManager.cs" />
+    <Compile Include="Plugins\IPluginMapNodeContextMenu.cs" />
+    <Compile Include="Plugins\IPluginSystemIcon.cs" />
+    <Compile Include="Plugins\MainMenuItem.cs" />
+    <Compile Include="Plugins\MenuItem.cs" />
+    <Compile Include="Plugins\PluginManager.cs" />
+    <Compile Include="Plugins\Tasks\Calender\CalendarContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\Calender\MindMateCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\Calender\MindMateCalender.Designer.cs">
+      <DependentUpon>MindMateCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Tasks\Model\BaseTaskList.cs" />
+    <Compile Include="Plugins\Tasks\Model\CompletedTaskEventArgs.cs" />
+    <Compile Include="Plugins\Tasks\Model\CompletedTaskPropertyEventArgs.cs" />
+    <Compile Include="Plugins\Tasks\Model\CompletionDateAttribute.cs" />
+    <Compile Include="Plugins\Tasks\Model\CompletedTaskList.cs" />
+    <Compile Include="Plugins\Tasks\Model\PendingTaskPropertyEventArgs.cs" />
+    <Compile Include="Plugins\Tasks\Model\TaskEventArgs.cs" />
+    <Compile Include="Plugins\Tasks\Model\TaskList.cs" />
+    <Compile Include="Plugins\Tasks\Model\TaskStatusAttribute.cs" />
+    <Compile Include="Plugins\Tasks\Model\DueDateAttribute.cs" />
+    <Compile Include="Plugins\Tasks\Model\Task.cs" />
+    <Compile Include="Plugins\Tasks\Model\PendingTaskList.cs" />
+    <Compile Include="Plugins\Tasks\Model\PendingTaskEventArgs.cs" />
+    <Compile Include="Plugins\Tasks\Reminder\ReminderType.cs" />
+    <Compile Include="Plugins\Tasks\Reminder\ReminderCtrl.cs" />
+    <Compile Include="Plugins\Tasks\Reminder\TaskReminder.cs" />
+    <Compile Include="Plugins\Tasks\Reminder\TaskReminderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\Reminder\TaskReminderDialog.Designer.cs">
+      <DependentUpon>TaskReminderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Tasks\SideBar\ControlGroupCollection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskCompleteIcon.cs" />
+    <Compile Include="Plugins\Tasks\SideBar\ControlGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskList\TaskGroup.cs" />
+    <Compile Include="Plugins\Tasks\TaskList\TaskListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskPlugin.ContextMenu.cs" />
+    <Compile Include="Plugins\Tasks\SideBar\CollapsiblePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\SideBar\CollapsiblePanel.designer.cs">
+      <DependentUpon>CollapsiblePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Tasks\DateHelper.cs" />
+    <Compile Include="Plugins\Tasks\DateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\DateTimePicker.Designer.cs">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskDueIcon.cs" />
+    <Compile Include="Plugins\Tasks\TaskPlugin.SystemIcons.cs" />
+    <Compile Include="Plugins\Tasks\TaskPlugin.TaskListView.cs" />
+    <Compile Include="Plugins\Tasks\TaskRes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TaskRes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskPlugin.cs" />
+    <Compile Include="Plugins\Tasks\SideBar\SideBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\SideBar\SideBar.designer.cs">
+      <DependentUpon>SideBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskList\TaskView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskList\TaskView.designer.cs">
+      <DependentUpon>TaskView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskList\TransparentButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Plugins\Tasks\TaskList\TransparentLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Serialization\Convert.cs" />
+    <Compile Include="Serialization\Dir.cs" />
+    <Compile Include="Serialization\MapYamlSerializer.cs" />
+    <Compile Include="Serialization\MapYamlSerializer.Generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MapYamlSerializer.Generated.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Serialization\MetaModelYamlSerializer.cs" />
+    <Compile Include="Serialization\MindMapSerializer.cs" />
+    <Compile Include="Serialization\MapTextSerializer.cs" />
+    <Compile Include="Serialization\NodeStyleImageSerializer.cs" />
+    <Compile Include="Serialization\PersistenceManager.cs" />
+    <Compile Include="Serialization\PersistentTree.cs" />
+    <Compile Include="Serialization\SerializedAttribute.cs" />
+    <Compile Include="View\Dialogs\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dialogs\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialogs\IconSelectorExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dialogs\IconSelectorExt.Designer.cs">
+      <DependentUpon>IconSelectorExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetaModel\ISystemIcon.cs" />
+    <Compile Include="View\Dialogs\InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dialogs\InputBox.Designer.cs">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EditorTabs\EditorTabs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\EditorTabs\Tab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\EditorTabs\TabBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\IMainForm.cs" />
+    <Compile Include="View\MapControls\ContextMenuAttacher.cs" />
+    <Compile Include="View\MapControls\Drawing\IView.cs" />
+    <Compile Include="View\MapControls\Drawing\MapPainter.cs" />
+    <Compile Include="Model\SelectedNodes.cs" />
+    <Compile Include="View\MapControls\Drawing\TextRenderer.cs" />
+    <Compile Include="View\MapControls\MapViewDragHandler.cs" />
+    <Compile Include="View\MapControls\MapViewFormatPainter.cs" />
+    <Compile Include="View\MapControls\MapViewTextEditor.cs" />
+    <Compile Include="View\MapControls\NodeContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\MapControls\NodeMouseEventArgs.cs" />
+    <Compile Include="View\MapControls\NoteIcon.cs" />
+    <Compile Include="View\MapControls\MapView.cs" />
+    <Compile Include="View\MapControls\Drawing\RoundedRectangle.cs" />
+    <Compile Include="View\MapControls\MapViewPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\MapControls\MapViewPanel.Designer.cs">
+      <DependentUpon>MapViewPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="View\MapControls\Link.cs" />
+    <Compile Include="View\MapControls\IconView.cs" />
+    <Compile Include="Serialization\IconImageLoader.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\HTMLElementHelper.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IDisplayPointerRaw.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IHTMLCaretRaw.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IHTMLEditDesigner.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IMarkupContainerRaw.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IMarkupPointer2Raw.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IMarkupPointerRaw.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IMarkupServicesRaw.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\MarkupContainer.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\MarkupPointer.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\MarkupRange.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\MshtmlMarkupServices.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\SelectionPreserver.cs" />
+    <Compile Include="View\NoteEditing\TablePropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NoteEditing\HtmlTableProperty.cs" />
+    <Compile Include="View\NoteEditing\NoteEditorContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\SideTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Plugins\Tasks\Calender\MindMateCalender.resx">
+      <DependentUpon>MindMateCalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\Tasks\Reminder\TaskReminderDialog.resx">
+      <DependentUpon>TaskReminderDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dialogs\InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NoteEditing\HtmlSourceDialog.resx">
+      <DependentUpon>HtmlSourceDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NoteEditing\TablePropertyForm.resx">
+      <DependentUpon>TablePropertyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NoteEditor.resx" />
+    <None Include="images\filenew.png" />
+    <None Include="Settings.Yaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="View\Dialogs\IconSelector.cs">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="View\Dialogs\IconSelector.Designer.cs">
+      <DependentUpon>IconSelector.cs</DependentUpon>
+    </None>
+    <Compile Include="View\Dialogs\LinkManualEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dialogs\LinkManualEdit.Designer.cs">
+      <DependentUpon>LinkManualEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialogs\MultiLineNodeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dialogs\MultiLineNodeEdit.Designer.cs">
+      <DependentUpon>MultiLineNodeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MapControls\NodeView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\MapControls\TextCursorPosition.cs" />
+    <Compile Include="View\NoteEditing\MsHtmlWrap\IOleUndoManager.cs" />
+    <Compile Include="View\NoteEditing\NoteEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\NoteEditing\NoteEditor.Designer.cs">
+      <DependentUpon>NoteEditor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Plugins\Tasks\SideBar\CollapsiblePanel.resx">
+      <DependentUpon>CollapsiblePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\Tasks\DateTimePicker.resx">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\Tasks\TaskRes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TaskRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\Tasks\SideBar\SideBar.resx">
+      <DependentUpon>SideBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\Tasks\TaskList\TaskView.resx">
+      <DependentUpon>TaskView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dialogs\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dialogs\IconSelectorExt.resx">
+      <DependentUpon>IconSelectorExt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MapControls\MapViewPanel.resx">
+      <DependentUpon>MapViewPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="View\Dialogs\IconSelector.resx">
+      <DependentUpon>IconSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="View\Dialogs\LinkManualEdit.resx">
+      <DependentUpon>LinkManualEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dialogs\MultiLineNodeEdit.resx">
+      <DependentUpon>MultiLineNodeEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dialogs\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <Compile Include="View\Dialogs\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dialogs\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\MapViewMouseEventHandler.cs" />
+    <Compile Include="Model\MapNode.cs" />
+    <Compile Include="Model\MapTree.cs" />
+    <Compile Include="Controller\MapCtrl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\move_r.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\knotes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ask Question Filled-100.png" />
+    <None Include="Resources\Bullets.LargeHighContrastImage.png" />
+    <None Include="Resources\Bullets.LargeImage.png" />
+    <None Include="Resources\Bullets.SmallHighContrastImage.png" />
+    <None Include="Resources\Bullets.SmallImage.png" />
+    <None Include="Resources\Numbers.LargeHighContrastImage.png" />
+    <None Include="Resources\Numbers.LargeImage.png" />
+    <None Include="Resources\Numbers.SmallHighContrastImage.png" />
+    <None Include="Resources\Numbers.SmallImage.png" />
+    <None Include="Resources\AlignCenter.LargeImage.png" />
+    <None Include="Resources\AlignCenter.SmallHighContrastImage.png" />
+    <None Include="Resources\AlignCenter.SmallImage.png" />
+    <None Include="Resources\AlignLeft.LargeImage.png" />
+    <None Include="Resources\AlignLeft.SmallHighContrastImage.png" />
+    <None Include="Resources\AlignLeft.SmallImage.png" />
+    <None Include="Resources\AlignRight.LargeImage.png" />
+    <None Include="Resources\AlignRight.SmallHighContrastImage.png" />
+    <None Include="Resources\AlignRight.SmallImage.png" />
+    <None Include="Resources\Justify.LargeImage.png" />
+    <None Include="Resources\Justify.SmallHighContrastImage.png" />
+    <None Include="Resources\Justify.SmallImage.png" />
+    <None Include="Resources\Outdent.SmallHighContrastImage.png" />
+    <None Include="Resources\Outdent.SmallImage.png" />
+    <None Include="Resources\Indent.SmallHighContrastImage.png" />
+    <None Include="Resources\Indent.SmallImage.png" />
+    <None Include="Resources\NoteHeading1_32bit.png" />
+    <None Include="Resources\NoteHeading1_16bit.png" />
+    <None Include="Resources\NoteHeading2_16bit.png" />
+    <None Include="Resources\NoteHeading3_16bit.png" />
+    <None Include="Resources\NoteHeading3_32bit.png" />
+    <None Include="Resources\NoteHeading2_32bit.png" />
+    <None Include="Resources\NoteNormal_32bit.png" />
+    <None Include="Resources\NoteNormal_16bit.png" />
+    <None Include="Resources\InsertTable.SmallImage.png" />
+    <None Include="Resources\InsertTable.LargeImage.png" />
+    <None Include="Resources\MoveRowUp.SmallImage.png" />
+    <None Include="Resources\InsertColumnLeft.LargeImage.png" />
+    <None Include="Resources\InsertColumnLeft.SmallImage.png" />
+    <None Include="Resources\InsertColumnRight.LargeImage.png" />
+    <None Include="Resources\InsertColumnRight.SmallImage.png" />
+    <None Include="Resources\InsertRowAbove.LargeImage.png" />
+    <None Include="Resources\InsertRowAbove.SmallImage.png" />
+    <None Include="Resources\InsertRowBelow.LargeImage.png" />
+    <None Include="Resources\InsertRowBelow.SmallImage.png" />
+    <None Include="Resources\MoveColumnLeft.LargeImage.png" />
+    <None Include="Resources\MoveColumnLeft.SmallImage.png" />
+    <None Include="Resources\MoveColumnRight.LargeImage.png" />
+    <None Include="Resources\MoveColumnRight.SmallImage.png" />
+    <None Include="Resources\MoveRowDown.LargeImage.png" />
+    <None Include="Resources\MoveRowDown.SmallImage.png" />
+    <None Include="Resources\MoveRowUp.LargeImage.png" />
+    <None Include="Resources\DeleteTable.SmallImage.png" />
+    <None Include="Resources\DeleteColumn.LargeImage.png" />
+    <None Include="Resources\DeleteColumn.SmallImage.png" />
+    <None Include="Resources\DeleteRow.LargeImage.png" />
+    <None Include="Resources\DeleteRow.SmallImage.png" />
+    <None Include="Resources\DeleteTable.LargeImage.png" />
+    <None Include="Resources\TableProperties.LargeImage.png" />
+    <None Include="Resources\TableProperties.SmallImage.png" />
+    <None Include="Resources\NoteEditHtml-32bit.png" />
+    <None Include="Resources\NoteEditHtml-16bit.png" />
+    <Content Include="Serialization\MapYamlSerializer.Generated.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MapYamlSerializer.Generated.cs</LastGenOutput>
+    </Content>
+    <None Include="Binaries\CustomFontDialog.dll" />
+    <None Include="Binaries\System.Windows.Forms.Calendar.dll" />
+    <None Include="Binaries\TaskSchedular.dll" />
+    <Content Include="images\edittrash.png" />
+    <Content Include="images\Executable.png" />
+    <Content Include="images\fileopen.png" />
+    <Content Include="images\filesave.png" />
+    <Content Include="images\filesaveas.png" />
+    <Content Include="images\icons\attach.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\bell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\bookmark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\broken-line.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\button_cancel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\button_ok.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\calendar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\clanbomber.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\clock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\clock2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\closed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\desktop_new.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\down.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\edit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\family.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\fema.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\female1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\female2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\flag-black.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\flag-blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\flag-green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\flag-orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\flag-pink.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\flag-yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\flag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\folder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\forward.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\freemind_butterfly.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\full-9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\go.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\gohome.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\group.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\help.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\hourglass.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\idea.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\info.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\kaddressbook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\kmail.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\knotify.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\korn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\ksmiletris.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\launch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\licq.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\list.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\Mail.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\male1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\male2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\messagebox_warning.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\password.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\pencil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\penguin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\prepare.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\smiley-angry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\smiley-neutral.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\smiley-oh.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\smily_bad.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\stop-sign.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\stop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\up.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\wizard.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\xmag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\yes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\InputBoxQuestion.jpg" />
+    <Content Include="images\Link.png" />
+    <Content Include="images\LinkLocal.png" />
+    <Content Include="images\LinkWeb.png" />
+    <Content Include="images\plugins\kalzium.png" />
+    <Content Include="images\remove.png" />
+    <None Include="Resources\application_view_columns.png" />
+    <None Include="Resources\application_view_detail.png" />
+    <None Include="Resources\application_view_icons.png" />
+    <None Include="Resources\application_view_list.png" />
+    <None Include="Resources\application_view_tile.png" />
+    <None Include="Resources\wrench.png" />
+    <None Include="Resources\arrow-090.png" />
+    <None Include="Resources\arrow-270.png" />
+    <None Include="Resources\tick_button.png" />
+    <None Include="Resources\text_edit.png" />
+    <None Include="Resources\collapse.gif" />
+    <None Include="Resources\collapse_hightlight.gif" />
+    <None Include="Resources\expand.gif" />
+    <None Include="Resources\expand_highlight.gif" />
+    <None Include="Resources\date_add.png" />
+    <None Include="Resources\date_delete.png" />
+    <None Include="Resources\date_edit.png" />
+    <None Include="Resources\tick.png" />
+    <None Include="Resources\date.png" />
+    <None Include="Resources\arrow-090-medium.png" />
+    <None Include="Resources\arrow-270-medium.png" />
+    <None Include="Resources\arrow-090-small.png" />
+    <None Include="Resources\arrow-270-small.png" />
+    <None Include="Resources\cut.ico" />
+    <None Include="Resources\page_copy.ico" />
+    <None Include="Resources\page_paste.ico" />
+    <None Include="Resources\cross.ico" />
+    <None Include="Resources\remove_arrows.ico" />
+    <None Include="Resources\text_bold.ico" />
+    <None Include="Resources\text_italic.ico" />
+    <None Include="Resources\text_underline.ico" />
+    <None Include="Resources\font.ico" />
+    <None Include="Resources\world_link.png" />
+    <None Include="Resources\photo_link.png" />
+    <None Include="Resources\link_go.png" />
+    <None Include="Resources\folder_link.png" />
+    <None Include="Resources\film_link.png" />
+    <None Include="Resources\email_link.png" />
+    <None Include="Resources\application_link.png" />
+    <None Include="Resources\page_white_link.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\DragMove.cur" />
+    <None Include="Resources\HandDrag.cur" />
+    <None Include="Resources\painter.cur" />
+    <None Include="Resources\MindMap-2m.ico" />
+    <None Include="Resources\smartart_change_color_gallery-32.png" />
+    <None Include="Resources\smartart_change_color_gallery-16.png" />
+    <None Include="Resources\minus.png" />
+    <None Include="Resources\cross-script.png" />
+    <None Include="Resources\link.png" />
+    <None Include="Resources\sticky-note-pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

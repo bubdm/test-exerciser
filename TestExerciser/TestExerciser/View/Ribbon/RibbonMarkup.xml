@@ -1,0 +1,1098 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'>
+  
+  <Application.Commands>
+    
+    <Command Name="HelpButton" Id="901" />
+
+    <!--Application Menu-->
+    <Command Name="ApplicationMenu" Id="1000" />
+
+    <Command Name="ButtonNew" Id="1001" LabelTitle="&amp;新建" LabelDescription="创建新的测试方案" TooltipTitle="新建" TooltipDescription="创建新的测试方案(Ctrl + N)">
+      <Command.LargeImages>
+        <Image>Res/New32.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image>Res/New16.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="ButtonOpen" Id="1002" LabelTitle="打开" LabelDescription="打开已存在的测试方案" TooltipTitle="打开" TooltipDescription="打开已存在的测试方案(Ctrl + O)">
+      <Command.LargeImages><Image>Res/Open32.bmp</Image></Command.LargeImages>
+      <Command.SmallImages><Image>Res/Open16.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="ButtonSave" Id="1003" LabelTitle="保存" LabelDescription="保存当前测试方案" TooltipTitle="保存" TooltipDescription="保存当前测试方案(Ctrl + S)">
+      <Command.LargeImages><Image>Res/Save32.bmp</Image></Command.LargeImages>
+      <Command.SmallImages><Image>Res/Save16.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="SaveAs" Id="1007" LabelTitle="另存为..." LabelDescription="另存为..." TooltipTitle="另存为..." TooltipDescription="另存为..." >
+      <Command.LargeImages><Image>Res/SaveAsHH.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="SaveAll" Id="1006" LabelTitle="全部保存" LabelDescription="保存所有方案" TooltipTitle="保存所有方案(Ctrl + Shift + S)">
+      <Command.LargeImages><Image>Res/SaveAll32.bmp</Image></Command.LargeImages>
+      <Command.SmallImages><Image>Res/SaveAllHS.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="Export" Id="1010" LabelTitle="导出">
+    </Command>
+    <Command Name="ExportAsPNG" Id="1008" LabelTitle="导出格式为 (PNG)" LabelDescription="PNG 格式" >
+      <Command.LargeImages><Image>Res/PNG Filled-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="ExportAsJPG" Id="1009" LabelTitle="导出格式为 (JPG)" LabelDescription="Jpeg 格式" >
+      <Command.LargeImages><Image>Res/JPG Filled-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="Close" Id="1005" LabelTitle="关闭" LabelDescription="关闭" TooltipTitle="关闭" TooltipDescription="关闭当前测试方案.">
+      <Command.LargeImages><Image>Res/Close3.bmp</Image></Command.LargeImages>
+      <Command.SmallImages><Image>Res/Close4.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="ButtonExit" Id="1004" LabelTitle="退出" LabelDescription="退出" TooltipTitle="Exit" TooltipDescription="退出用例设计(Alt + F4)">
+      <Command.LargeImages><Image>Res/Exit.bmp</Image></Command.LargeImages>
+      <Command.SmallImages><Image>Res/Exit.bmp</Image></Command.SmallImages>
+    </Command>
+
+    <Command Name="RecentItems" Id="1020" LabelTitle="最近打开的测试方案"/>
+    
+    <!--Tab: Home-->
+    <Command Name="TabHome" Id="2000" LabelTitle="主页">
+    </Command>
+
+    <!--Group: New Node-->
+    <Command Name="NewNode" Id="2010" LabelTitle="新建节点" />
+    <Command Name="NewChildNode" Id="2011" LabelTitle="新建子节点" TooltipDescription="创建新的子节点(Tab)">
+      <Command.LargeImages>
+        <Image>Res/node-insert-child.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="NewLongNode" Id="2012" LabelTitle="新建多行子节点" TooltipDescription="创建多行子节点.">
+      <Command.SmallImages>
+        <Image>Res/align_compact.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="NewNodeAbove" Id="2013" LabelTitle="新建上一节点" TooltipDescription="上面创建的兄弟节点(Shift + Enter)">
+      <Command.LargeImages>
+        <Image>Res/node-insert-previous.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="NewNodeBelow" Id="2014" LabelTitle="新建下一节点" TooltipDescription="创建下面的兄弟节点(Enter)">
+      <Command.LargeImages>
+        <Image>Res/node-insert-next.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="NewNodeParent" Id="2015" LabelTitle="新建父节点" TooltipDescription="在当前节点和它的父节点之间创建一个新节点.">
+      <Command.LargeImages>
+        <Image>Res/node-insert.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <!--Group: Edit-->
+    <Command Name="GrpEdit" Id="2030" LabelTitle="编辑"/>
+    <Command Name="EditText" Id="2031" LabelTitle="编辑" TooltipDescription="节点的编辑文本(F2)">
+      <Command.SmallImages>
+        <Image>Res/edit.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="EditLong" Id="2032" LabelTitle="编辑多行" TooltipDescription="在多行编辑器中编辑节点的文本(Alt + Enter)">
+    <Command.SmallImages>
+        <Image>Res/align_compact.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="DeleteNode" Id="2033" LabelTitle="删除" TooltipDescription="删除选中节点(Del)">     
+      <Command.SmallImages>
+        <Image>Res/cross-script.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <!--Group: Clipboard-->
+    <Command Name="GrpClipboard" Id="2050" LabelTitle="剪贴板" />
+    <Command Name="Paste" Id="2051" LabelTitle="粘贴" TooltipDescription="粘贴(Ctrl + V)">
+      <Command.LargeImages>
+        <Image>Res/page_white_paste.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="PasteAsText" Id="2052" LabelTitle="以文本形式粘贴" >
+      <Command.SmallImages>
+        <Image>Res/paste_plain.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="Cut" Id="2053" LabelTitle="剪切" TooltipDescription="剪切(Ctrl + X)">
+      <Command.LargeImages>
+        <Image>Res/cut.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Copy" Id="2054" LabelTitle="复制" TooltipDescription="复制(Ctrl + C)">
+      <Command.SmallImages>
+        <Image>Res/page_white_copy.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="FormatPainter" Id="2055" LabelTitle="格式刷" >
+      <Command.SmallImages>
+        <Image>Res/format_painter.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <!--Group: Font-->
+    <Command Name="GrpFont" Id="2070" LabelTitle="字体" />
+    <Command Name="RichFont" Id="2071" LabelTitle="富字体" />
+    <Command Name="GrpFormat" Id="2101" LabelTitle="格式" />
+    <Command Name="BackColor"  Id="2112" Keytip="FH" LabelTitle="背景颜色" TooltipTitle="文本高亮颜色" TooltipDescription="让文字看起来像是用高亮笔写的." >
+      <Command.SmallImages>
+        <Image>Res/FontBackgroundColor.SmallImage.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="ClearFormatting" Id="2102" LabelTitle="清除格式" TooltipTitle="清除所有格式" TooltipDescription="删除所有格式，如字体和颜色.">
+      <Command.LargeImages>
+        <Image>Res/clear_formatting-large.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image>Res/clear_formatting.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    
+    <!--Group: IconsGallery-->
+    <Command Name="GrpIcons" Id="2080" LabelTitle="图标" />
+    <Command Name="IconsGallery" Id="2081" LabelTitle="图标" />
+    <Command Name="RemoveLastIcon" Id="2082" LabelTitle="移除最后一个图标" TooltipDescription="从选定节点删除最近添加的图标" />
+    <Command Name="RemoveAllIcons" Id="2083" LabelTitle="移除所有图标" TooltipDescription="删除所选节点上的所有图标" />
+    <Command Name="LaunchIconsDialog" Id="2084" LabelTitle="打开图标对话框 ..." TooltipDescription="启动图标对话框选择或自定义图标" />
+    
+    <!--Tab: Edit-->
+    <Command Name="TabEdit" Id="3000" LabelTitle="编辑" />
+    
+    <!--Group: Select-->
+    <Command Name="GrpSelect" Id="3010" LabelTitle="选择" />
+    <Command Name="SelectAll" Id="3011" LabelTitle="选择所有" TooltipDescription="选择所有节点" >
+      <Command.SmallImages><Image>Res/node-select-all.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="SelectSiblings" Id="3012" LabelTitle="兄弟节点"
+             TooltipDescription="选择所选节点的所有兄弟节点. 
+             
+Note:    
+
+- Select all siblings above (Shift + Page Up) 
+- Select all siblings below (Shift + Page Down)" >
+      <Command.SmallImages><Image>Res/node-select-child.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="SelectAncestors" Id="3013" LabelTitle="父节点" TooltipDescription="选择所选节点的父节点和祖父母节点." >
+      <Command.SmallImages><Image>Res/node-select.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="SelectChildren" Id="3014" LabelTitle="子节点" TooltipDescription="选择所有的孩子节点." >
+      <Command.SmallImages><Image>Res/node-select-children.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="SelectDescendents" Id="3015" LabelTitle="后代节点" TooltipDescription="选择所有的后代，即分支节点." >
+      <Command.SmallImages><Image>Res/node-select-descendents.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="SelectDescendentsUpto1" Id="3016" LabelTitle="Upto depth 1" TooltipDescription="Select all descendents upto depth 1 (i.e. children)" />
+    <Command Name="SelectDescendentsUpto2" Id="3017" LabelTitle="Upto depth 2" TooltipDescription="Select all descendents upto depth 2" />
+    <Command Name="SelectDescendentsUpto3" Id="3018" LabelTitle="Upto depth 3" TooltipDescription="Select all descendents upto depth 3" />
+    <Command Name="SelectDescendentsUpto4" Id="3019" LabelTitle="Upto depth 4" TooltipDescription="Select all descendents upto depth 4" />
+    <Command Name="SelectDescendentsUpto5" Id="3020" LabelTitle="Upto depth 5" TooltipDescription="Select all descendents upto depth 5" />
+    <!--<Command Name="IncludeSelected" Id="3021" LabelTitle="Expand Selection" TooltipDescription="Include currently selected nodes" />-->
+    <Command Name="ExpandOnSelect" Id="3029" LabelTitle="选择所有节点" TooltipDescription="只有未选中的节点才会被选中." />
+    <Command Name="SelectLevel" Id="3022" LabelTitle="选择级别" TooltipDescription="从中心选择某个级别的所有节点." >
+      <Command.LargeImages><Image>Res/node-select-level.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="SelectLevel1" Id="3023" LabelTitle="Select Level 1" TooltipDescription="Select nodes at level(depth) 1 from center" />
+    <Command Name="SelectLevel2" Id="3024" LabelTitle="Select Level 2" TooltipDescription="Select nodes at level(depth) 2 from center" />
+    <Command Name="SelectLevel3" Id="3025" LabelTitle="Select Level 3" TooltipDescription="Select nodes at level(depth) 3 from center" />
+    <Command Name="SelectLevel4" Id="3026" LabelTitle="Select Level 4" TooltipDescription="Select nodes at level(depth) 4 from center" />
+    <Command Name="SelectLevel5" Id="3027" LabelTitle="Select Level 5" TooltipDescription="Select nodes at level(depth) 5 from center" />
+    <Command Name="SelectLevelCurrent" Id="3028" LabelTitle="选择当前级别" TooltipDescription="在当前节点的级别上选择节点." />
+    
+    <!--Group: Expand-->
+    <Command Name="GrpExpand" Id="3101" LabelTitle="展开 / 折叠" />
+    <Command Name="ExpandAll" Id="3102" LabelTitle="展开全部" TooltipDescription="递归展开所有节点">
+      <Command.SmallImages><Image>Res/ExpandAll-sua.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="CollapseAll" Id="3103" LabelTitle="折叠全部" TooltipDescription="递归折叠所有节点">
+      <Command.SmallImages><Image>Res/CollapseAll-sua.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="ToggleCurrent" Id="3104" LabelTitle="当前节点     " TooltipDescription="展开/折叠当前节点(Space)">
+      <Command.SmallImages><Image>Res/ToggleExpandCurrent-sua.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="ToggleBranch" Id="3105" LabelTitle="分支节点" TooltipDescription="递归展开/折叠当前节点">
+      <Command.SmallImages><Image>Res/ToggleExpandBranch-sua.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="ExpandMapToCurrentLevel" Id="3110" LabelTitle="将测试方案展开到当前级别" TooltipDescription="展开/折叠测试方案到当前选定节点的级别" >
+      <Command.SmallImages><Image>Res/ExpandMapLevel-sua.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="ExpandMapToLevel1" Id="3111" LabelTitle="Expand Map to Level 1" TooltipDescription="Expand / Collapse map to level 1" />
+    <Command Name="ExpandMapToLevel2" Id="3112" LabelTitle="Expand Map to Level 2" TooltipDescription="Expand / Collapse map to level 2" />
+    <Command Name="ExpandMapToLevel3" Id="3113" LabelTitle="Expand Map to Level 3" TooltipDescription="Expand / Collapse map to level 3" />
+    <Command Name="ExpandMapToLevel4" Id="3114" LabelTitle="Expand Map to Level 4" TooltipDescription="Expand / Collapse map to level 4" />
+    <Command Name="ExpandMapToLevel5" Id="3115" LabelTitle="Expand Map to Level 5" TooltipDescription="Expand / Collapse map to level 5" />
+    
+    <!--Group: Navigate-->
+    <Command Name="GrpNavigate" Id="3201" LabelTitle="导航" />
+    <Command Name="NavigateToCenter" Id="3202" LabelTitle="导航到中心" LabelDescription="选择中心节点">
+      <Command.LargeImages><Image>Res/Center Direction-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="NavigateToFirstSibling" Id="3203" LabelTitle="导航到第一个兄弟节点" >
+      <Command.LargeImages><Image>Res/North Direction-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="NavigateToLastSibling" Id="3204" LabelTitle="导航到最后一个兄弟节点" >
+      <Command.LargeImages><Image>Res/South Direction-32.bmp</Image></Command.LargeImages>
+    </Command>
+    
+    <!--Group: Move-->
+    <Command Name="GrpMove" Id="3301" LabelTitle="移动" />
+    <Command Name="MoveUp" Id="3302" LabelTitle="上移" TooltipDescription="上移选中节点(Ctrl + Up)">
+      <Command.SmallImages><Image>Res/Up-32.bmp</Image></Command.SmallImages>  
+    </Command>
+    <Command Name="MoveDown" Id="3303" LabelTitle="下移" TooltipDescription="下移选中节点(Ctrl + Down)">
+      <Command.SmallImages><Image>Res/Down-32.bmp</Image></Command.SmallImages>  
+    </Command>
+    
+    <!--Group: Sort-->
+    <Command Name="GrpSort" Id="3400" LabelTitle="排序"/>
+    <Command Name="SortAlphabetic" Id="3401" LabelTitle="排序" LabelDescription="按字母顺序对孩子节点排序" TooltipDescription="按字母顺序排序孩子节点.">
+      <Command.LargeImages><Image>Res/Alphabetical Sorting-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="SortDueDate" Id="3402" LabelTitle="按任务排序" LabelDescription="按到期日期对孩子节点排序" TooltipDescription="按到期日期对孩子节点排序.">
+      <Command.LargeImages><Image>Res/sort-by-task.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="SortNodeCount" Id="3405" LabelTitle="按节点数排序" LabelDescription="按节点数对孩子节点排序" TooltipDescription="按节点数对孩子节点排序.">
+      <Command.LargeImages><Image>Res/sort-by-node-count.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="SortModifiedDate" Id="3403" LabelTitle="按修改时间排序" LabelDescription="按修改时间排序" TooltipDescription="按修改时间排序.">
+      <Command.LargeImages><Image>Res/Sort By Modified Date-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="SortCreateDate" Id="3404" LabelTitle="按创建时间排序" LabelDescription="按创建时间排序" TooltipDescription="按创建时间排序.">
+      <Command.LargeImages><Image>Res/Sort By Creation Date-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="SortOrder" Id="3406" LabelTitle="升序/降序排序" TooltipTitle="升序/降序排序" TooltipDescription="单击切换排序顺序:升序或降序">
+      <Command.LargeImages><Image>Res/Ascending Sorting-32.bmp</Image></Command.LargeImages>
+    </Command>
+    
+    <!--Group: Undo-->
+    <Command Name="GrpUndo" Id="3501" LabelTitle="撤销 / 重做" />
+    <Command Name="Undo" Id="3502" LabelTitle="撤销" TooltipDescription="撤销(Ctrl + Z)">
+      <Command.LargeImages><Image>Res/Undo-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="Redo" Id="3503" LabelTitle="重做" TooltipDescription="重做(Ctrl + Y)">
+      <Command.LargeImages><Image>Res/Redo-32.bmp</Image></Command.LargeImages>
+    </Command>
+    
+    <!--Tab: Insert-->
+    <Command Name="TabInsert" Id="4000" LabelTitle="插入">
+    </Command>
+    
+    <!--Group: Hyperlink-->
+    <Command Name="GrpHyperlink" Id="4100" LabelTitle="超链接" />
+    <Command Name="Hyperlink" Id="4101" LabelTitle="超链接" TooltipTitle="使用文本字段添加或编辑超链接(Ctrl + K)" TooltipDescription="网站或本地文件的超链接.">
+      <Command.LargeImages><Image>Res/Add Link2-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="HyperlinkFile" Id="4102" LabelTitle="文件" TooltipTitle="使用文件对话框添加或编辑超链接(Ctrl + Shift + K)" TooltipDescription="网站或本地文件的超链接.">
+      <Command.LargeImages><Image>Res/File-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="HyperlinkFolder" Id="4103" LabelTitle="文件夹" TooltipTitle="使用文件夹对话框添加或编辑超链接" TooltipDescription="网站或本地文件的超链接.">
+      <Command.LargeImages><Image>Res/Folder2-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="RemoveHyperlink" Id="4104" LabelTitle="删除超链接" TooltipTitle="删除超链接" >
+      <Command.LargeImages><Image>Res/Delete Link-32.bmp</Image></Command.LargeImages>
+    </Command>
+    
+    <!--Group: Note-->
+    <Command Name="GrpNote" Id="4200" LabelTitle="笔记" />
+    <Command Name="InsertNote" Id="4201" LabelTitle="插入笔记">
+      <Command.LargeImages><Image>Res/sticky-note.bmp</Image></Command.LargeImages>
+    </Command>
+    
+    <!--Group: Task-->
+    <Command Name="GrpTask" Id="4300" LabelTitle="任务" />
+    <Command Name="AddTask" Id="4301" LabelTitle="停止日期" TooltipDescription="使用日程表面板将任务添加到选定的节点...">
+      <Command.LargeImages><Image>Res/Calender Add-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="AddTaskToday" Id="4302" LabelTitle="停止日期" TooltipDescription="将任务添加到选定的节点并标注今天">
+      <Command.LargeImages><Image>Res/Calender Today-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="AddTaskTomorrow" Id="4303" LabelTitle="明天" TooltipDescription="将任务添加到选定的节点并标注明天">
+      <Command.LargeImages><Image>Res/Calender Tomorrow-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="AddTaskNextWeek" Id="4304" LabelTitle="下一周" TooltipDescription="将任务添加到选定的节点并标注下一个周">
+      <Command.LargeImages><Image>Res/Calender Next Week-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="AddTaskNextMonth" Id="4305" LabelTitle="下一月" TooltipDescription="将任务添加到选定的节点并标注下一个月">
+      <Command.LargeImages><Image>Res/Calender Next Month-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="AddTaskNextQuarter" Id="4306" LabelTitle="下一季" TooltipDescription="将任务添加到选定的节点并标注下一个季度">
+      <Command.LargeImages><Image>Res/Calender Next Quarter-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="CompleteTask" Id="4307" LabelTitle="完成任务" TooltipDescription="为选定的节点完成标记任务.">
+      <Command.LargeImages><Image>Res/Calender Complete-32.bmp</Image></Command.LargeImages>
+    </Command>
+    <Command Name="RemoveTask" Id="4308" LabelTitle="删除任务" TooltipDescription="从选定的节点删除任务.">
+      <Command.LargeImages><Image>Res/Calender Remove-32.bmp</Image></Command.LargeImages>
+    </Command>
+    
+    <!--Tab: Format-->
+    <Command Name="TabFormat" Id="5000" LabelTitle="格式" />
+    
+    <!--Group: Node Format-->
+    <Command Name="GrpNodeFormat" Id="5100" LabelTitle="节点格式" />
+    <Command Name="NodeShape" Id="5101" LabelTitle="节点格式" />
+    <Command Name="ClearShapeFormat" Id="1502" LabelTitle="清除节点格式" TooltipDescription="清除图形格式和使用默认值." />
+    <Command Name="LineColor" Id="5103" LabelTitle="线条颜色">
+      <Command.SmallImages><Image>Res/Border Color-16.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="LinePattern" Id="5104" LabelTitle="线条图案">
+      <Command.SmallImages><Image>Res/Horizontal Line-16.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="LinePatternSolid" Id="5201" LabelTitle="Solid" />
+    <Command Name="LinePatternDashed" Id="5202" LabelTitle="Dashed" />
+    <Command Name="LinePatternDotted" Id="5203" LabelTitle="Dotted" />
+    <Command Name="LinePatternMixed" Id="5204" LabelTitle="Mixed" />
+    <Command Name="LineThickness" Id="5105" LabelTitle="线条厚度" >
+      <Command.SmallImages><Image>Res/Line Width-16.bmp</Image></Command.SmallImages>
+    </Command>
+    <Command Name="LineThickness1" Id="5301" LabelTitle="1" />
+    <Command Name="LineThickness2" Id="5302" LabelTitle="2" />
+    <Command Name="LineThickness4" Id="5303" LabelTitle="4" />
+    
+    <!--Group: Node Style-->
+    <Command Name="GrpNodeStyle" Id="5400" LabelTitle="节点样式" />
+    <Command Name="NodeStyleGallery" Id="5401" LabelTitle="节点样式" />
+    <Command Name="CreateNodeStyle" Id="5402" LabelTitle="添加选择风格" />
+    
+    <!--Group: Clear Format-->
+    <Command Name="GrpClearFormat" Id="5500" LabelTitle="清除" />
+    
+    <!--Tab: View-->
+    <Command Name="TabView" Id="6000" LabelTitle="视图" />
+    
+    <!--Group: GrpViewTask-->
+    <Command Name="GrpViewTask" Id="6100" LabelTitle="任务" />
+    <Command Name="ViewCalendar" Id="6001" LabelTitle="日程表" TooltipTitle="打开日程表" TooltipDescription="打开的日历窗口，可以从打开的解决方案查看任务." >
+      <Command.LargeImages>
+        <Image>Res/Calendar-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="ViewTaskList" Id="6002" LabelTitle="任务列表" TooltipTitle="Show Task List" TooltipDescription="把任务列表放到视图中(只显示下个月的任务)." >
+      <Command.LargeImages>
+        <Image>Res/Todo List-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="GrpViewNote" Id="6200" LabelTitle="笔记" />
+    <Command Name="ViewNote" Id="6201" LabelTitle="笔记" TooltipTitle="展示笔记" TooltipDescription="展示笔记." >
+      <Command.LargeImages>
+        <Image>Res/sticky-note.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <!--Tab: Note Editor-->
+    <Command Name="TabGroupNote" Id="7000" LabelTitle="笔记编辑器"/>
+    <Command Name="TabNoteEditor" Id="7001" LabelTitle="笔记" />
+    
+    <!--Group: GrpNoteFont-->
+    <Command Name="GrpNoteFont" Id="7100" LabelTitle="字体" />
+    
+    <!--Group: Clear Format-->
+    <Command Name="GrpNoteClearFormat" Id="7200" />
+    
+    <!--Group: Paragraph-->
+    <Command Name="GrpParagraph" Id="7300" LabelTitle="段落" />
+    <Command Name="Bullets" Keytip="L1" LabelTitle="项目符号" TooltipTitle="项目符号" TooltipDescription="开始一个项目符号列表." Symbol="cmdBullets" Id="7301" >
+      <Command.LargeImages>
+        <Image>Res/p_Bullets.gif</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Numbers" Keytip="L2" LabelTitle="编号" TooltipTitle="编号" TooltipDescription="开始一个编号列表." Symbol="cmdNumbers" Id="7302" >
+      <Command.LargeImages>
+        <Image>Res/p_Numbers.gif</Image>
+      </Command.LargeImages>
+    
+  </Command>
+    <Command Name="AlignLeft" Keytip="AL" LabelTitle="左对齐" TooltipTitle="左对齐" TooltipDescription="左对齐." Symbol="cmdAlignLeft" Id="7304" >
+      <Command.SmallImages>
+        <Image>Res/p_AlignLeft.gif</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="AlignRight" Keytip="AR" LabelTitle="右对齐" TooltipTitle="右对齐" TooltipDescription="右对齐." Symbol="cmdAlignRight" Id="7305" >
+      <Command.LargeImages>
+        <Image>Res/p_AlignRight.gif</Image>
+      </Command.LargeImages>
+    
+  </Command>
+    <Command Name="AlignCenter" Keytip="AC" LabelTitle="居中对齐" TooltipTitle="居中对齐" TooltipDescription="居中对齐." Symbol="cmdAlignCenter" Id="7306" >
+      <Command.LargeImages>
+        <Image>Res/p_AlignCenter.gif</Image>
+      </Command.LargeImages>
+    
+  </Command>
+    <Command Name="Justify" Keytip="AJ" LabelTitle="两端对齐" TooltipTitle="两端对齐" TooltipDescription="对齐文本到左和右边缘，在必要时添加额外的空格." Symbol="cmdJustify" Id="7307" >
+      <Command.LargeImages>
+        <Image>Res/p_AlignCenter.gif</Image>
+      </Command.LargeImages>
+
+    </Command>
+    <Command Name="Indent" Symbol="Indent" Id="7308" Comment="Increase the indent level of the paragraph" Keytip="MI" LabelTitle="增加缩进" TooltipTitle="增加缩进" TooltipDescription="增加段落的缩进水平.">
+      <Command.LargeImages>
+        <Image>Res/p_Indent.gif</Image>
+      </Command.LargeImages>
+    
+  </Command>
+    <Command Name="Outdent" Symbol="Outdent" Id="7309" Comment="Decrease the indent level of the paragraph" Keytip="MO" LabelTitle="减少缩进" TooltipTitle="减少缩进" TooltipDescription="减少段落的缩进水平.">
+      <Command.LargeImages>
+        <Image>Res/p_Outdent.gif</Image>
+      </Command.LargeImages>
+    
+  </Command>
+    <Command Name="RTLTextBlock" Keytip="R1" LabelTitle="从右到左" TooltipDescription="将选定的文本的方向调整为从右向左." Symbol="cmdRTLTextBlock" Id="7310" >
+      <Command.LargeImages>
+        <Image>Res/p_RTLTextBlock.png</Image>
+      </Command.LargeImages>
+    
+  </Command>
+    <Command Name="LTRTextBlock" Keytip="R2" LabelTitle="从左到右" TooltipDescription="将选定的文本的方向调整为从左向右." Symbol="cmdLTRTextBlock" Id="7311" >
+      <Command.LargeImages>
+        <Image>Res/p_LTRTextBlock.png</Image>
+      </Command.LargeImages>
+    
+  </Command>
+    
+    <!--Group: Note Styles-->
+    <Command Name="GrpNoteStyles" Id="7400" LabelTitle="样式"/>
+    <Command Name="NoteHeading1" Id="7401" LabelTitle="标题1" TooltipTitle="标题1" TooltipDescription="应用标题1文本样式." >
+      <Command.LargeImages>
+        <Image>Res/heading1.gif</Image>
+      </Command.LargeImages>
+     </Command>
+    <Command Name="NoteHeading2" Id="7402" LabelTitle="标题2" TooltipTitle="标题2" TooltipDescription="应用标题2文本样式." >
+      <Command.LargeImages>
+        <Image>Res/heading2.gif</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="NoteHeading3" Id="7403" LabelTitle="标题3" TooltipTitle="标题3" TooltipDescription="应用标题3文本样式." >
+      <Command.LargeImages>
+        <Image>Res/heading3.gif</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="NoteNormal" Id="7404" LabelTitle="标准" TooltipTitle="标准" TooltipDescription="应用标准的文本样式." >
+      <Command.LargeImages>
+        <Image>Res/heading4.gif</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <!--Group: Note Table-->
+    <Command Name="GrpNoteTable" Id="7500" />
+    <Command Name="NoteInsertTable" Id="7501" Keytip="T" LabelTitle="插入表" TooltipDescription="在笔记中插入一张表." >
+    <Command.LargeImages>
+      <Image>Res/ob_table.gif</Image>
+    </Command.LargeImages>
+    </Command>   
+
+    <!--Group: -->
+    <Command Name="GrpNoteEditHtml" Id="7600" />
+    <Command Name="NoteEditHtml" Id="7601" LabelTitle="编辑Html源码" TooltipDescription="编辑Html源代码." >
+      <Command.LargeImages>
+        <Image>Res/align_compact.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <!--Tab: Note Table-->    
+    <Command Name="TabGroupNoteTable" Id="8000" LabelTitle="表工具" />
+    <Command Name="TabNoteTableLayout" Id="8100" LabelTitle="布局" />
+    
+    <Command Name="GrpCustomizeTable" Id="8200" Keytip="ZP" Symbol="cmdFormatTablePropertiesGroup"  />
+    <Command Name="ModifyTableProperties" Id="8201" LabelTitle="自定义 &amp;table" TooltipDescription="自定义表属性." />
+
+    <Command Name="GrpTableDelete" Keytip="ZD" LabelTitle="删除" Symbol="cmdFormatTableEditingGroup" Id="8300" />
+    <Command Name="DeleteRow" Keytip="DR" LabelTitle="删除行" TooltipDescription="删除选中行." Id="8301" />
+    <Command Name="DeleteColumn" Keytip="DC" LabelTitle="删除列" TooltipDescription="删除选中列." Id="8302" />
+    <Command Name="DeleteTable" Keytip="DT" LabelTitle="删除表" TooltipDescription="删除表." Id="8303" />
+    
+    <Command Name="GrpTableInsert" Keytip="ZI" LabelTitle="插入" Id="8400" />
+    <Command Name="InsertRowAbove" Keytip="IA" LabelTitle="上方插入" TooltipDescription="在当前位置上方插入一行." Id="8401" />
+    <Command Name="InsertRowBelow" Keytip="IB" LabelTitle="下方插入" TooltipDescription="在当前位置下方插入一行." Id="8402" />
+    <Command Name="InsertColumnLeft" Keytip="IL" LabelTitle="左边插入" TooltipDescription="在当前位置的左边插入一列." Id="8403" />
+    <Command Name="InsertColumnRight" Keytip="IR" LabelTitle="右边插入" TooltipDescription="在当前位置的右边插入一列." Id="8404" />    
+    
+    <Command Name="GrpTableMove" Keytip="ZM" LabelTitle="移动" Id="8500" />
+    <Command Name="MoveRowUp" Keytip="MA" LabelTitle="向上移动" TooltipDescription="将当前行与上面的行交换." Id="8501" />
+    <Command Name="MoveRowDown" Keytip="MB" LabelTitle="向下移动" TooltipDescription="将当前行与下面的行交换." Id="8502" />
+    <Command Name="MoveColumnLeft" Keytip="ML" LabelTitle="向左移动" TooltipDescription="将选定的列与左边的列交换." Id="8503" />
+    <Command Name="MoveColumnRight" Keytip="MR" LabelTitle="向右移动" TooltipDescription="将选定的列与右边的列交换." Id="8504" />
+
+        
+  </Application.Commands>
+                   
+  <Application.Views>
+    <Ribbon>
+
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="ApplicationMenu">
+          
+          <ApplicationMenu.RecentItems>
+            <RecentItems CommandName="RecentItems" MaxCount="12" EnablePinning="false"/>
+          </ApplicationMenu.RecentItems>
+
+          <MenuGroup>
+            <Button CommandName='ButtonNew' />
+            <Button CommandName='ButtonOpen' />
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName='ButtonSave' />
+            <Button CommandName='SaveAs' />
+            <Button CommandName='SaveAll' />
+            <DropDownButton CommandName='Export'>
+              <MenuGroup Class='MajorItems'>
+                <Button CommandName='ExportAsPNG' />
+                <Button CommandName='ExportAsJPG' />
+              </MenuGroup>
+            </DropDownButton>
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName='Close' />
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName='ButtonExit' />
+          </MenuGroup>
+          
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+
+      <Ribbon.Tabs>
+        <Tab CommandName='TabHome'>
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <Scale Group='GrpClipboard' Size='Medium' />
+              </ScalingPolicy.IdealSizes>
+              <Scale Group='GrpIcons' Size='Medium' />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName='NewNode'>
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name='button1' />
+                <ControlNameDefinition Name='button2' />
+                <ControlNameDefinition Name='button3' />
+                <ControlNameDefinition Name='button4' />
+              </ControlNameMap>
+              <GroupSizeDefinition Size='Large'>
+                <Row>
+                  <ControlSizeDefinition ControlName='button1' ImageSize='Large' IsLabelVisible='true' />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName='button2' ImageSize='Small' IsLabelVisible='true' />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName='button3' ImageSize='Small' IsLabelVisible='true' />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName='button4' ImageSize='Small' IsLabelVisible='true' />
+                </Row>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <SplitButton>
+              <Button CommandName='NewChildNode' />
+              <Button CommandName='NewLongNode' />
+            </SplitButton>
+            <Button CommandName='NewNodeAbove' />
+            <Button CommandName='NewNodeBelow' />
+            <Button CommandName='NewNodeParent' />
+          </Group>
+          <Group CommandName='GrpEdit'>
+            <Button CommandName='EditText' />
+            <Button CommandName='EditLong' />
+            <Button CommandName='DeleteNode' />
+          </Group>
+          <Group CommandName='GrpClipboard' SizeDefinition='FourButtons'>
+            <SplitButton>
+              <Button CommandName='Paste'/>
+              <Button CommandName='PasteAsText' />
+            </SplitButton>
+            <Button CommandName='Cut' />
+            <Button CommandName='Copy' />
+            <ToggleButton CommandName='FormatPainter' />
+          </Group>
+          <Group CommandName='GrpFont' SizeDefinition='OneFontControl'>
+            <FontControl CommandName="RichFont" FontType="FontWithColor" IsUnderlineButtonVisible="false" IsHighlightButtonVisible="false" ShowTrueTypeOnly="true"/>
+          </Group>
+          <Group CommandName="GrpFormat">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name='button1' />
+                <ControlNameDefinition Name='button2' />
+              </ControlNameMap>
+              <GroupSizeDefinition Size='Large'>
+                <Row>
+                  <ControlSizeDefinition ControlName='button1' ImageSize='Small' IsLabelVisible='true' />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName='button2' ImageSize='Small' IsLabelVisible='true' />
+                </Row>
+              </GroupSizeDefinition>
+              <GroupSizeDefinition Size='Medium'>
+                <Row>
+                  <ControlSizeDefinition ControlName='button1' ImageSize='Small' IsLabelVisible='false' />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName='button2' ImageSize='Small' IsLabelVisible='false' />
+                </Row>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <DropDownColorPicker CommandName="BackColor" IsNoColorButtonVisible="true" IsAutomaticColorButtonVisible="false"/>
+            <Button CommandName="ClearFormatting" />
+          </Group>
+          <Group CommandName="GrpIcons" SizeDefinition="OneInRibbonGallery">
+            <InRibbonGallery CommandName="IconsGallery" Type="Items" MinColumnsLarge="2" MaxColumnsMedium="2" MinColumnsMedium="1" MaxColumns="4" MaxRows="4">
+              <InRibbonGallery.MenuLayout>
+                <FlowMenuLayout />
+              </InRibbonGallery.MenuLayout>
+              <InRibbonGallery.MenuGroups>
+                <MenuGroup>
+                  <Button CommandName="RemoveLastIcon"/>
+                  <Button CommandName="RemoveAllIcons" />
+                  <Button CommandName="LaunchIconsDialog" />
+                </MenuGroup>
+              </InRibbonGallery.MenuGroups>
+            </InRibbonGallery>
+          </Group>
+        </Tab>
+        <Tab CommandName="TabEdit">
+          <Group CommandName="GrpSelect">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="button1" />
+                <ControlNameDefinition Name="button2" />
+                <ControlNameDefinition Name="button3" />
+                <ControlNameDefinition Name="button4" />
+                <ControlNameDefinition Name="button5" />
+                <ControlNameDefinition Name="button6" />
+                <ControlNameDefinition Name="button7" />
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large" >
+                <Row>
+                  <ControlSizeDefinition ControlName="button1" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button2" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button3" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button4" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button5" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button6" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button7" ImageSize="Large" IsLabelVisible="true" />
+                </Row>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <Button CommandName="SelectAll" />
+            <Button CommandName="SelectSiblings" />
+            <Button CommandName="SelectAncestors" />
+            <Button CommandName="SelectChildren" />
+            <SplitButton>
+              <Button CommandName="SelectDescendents" />
+              <Button CommandName="SelectDescendentsUpto1" />
+              <Button CommandName="SelectDescendentsUpto2" />
+              <Button CommandName="SelectDescendentsUpto3" />
+              <Button CommandName="SelectDescendentsUpto4" />
+              <Button CommandName="SelectDescendentsUpto5" />
+            </SplitButton>
+            <!--<CheckBox CommandName="IncludeSelected" />-->
+            <CheckBox CommandName="ExpandOnSelect" />
+            <DropDownButton CommandName="SelectLevel" >
+              <Button CommandName="SelectLevel1" />
+              <Button CommandName="SelectLevel2" />
+              <Button CommandName="SelectLevel3" />
+              <Button CommandName="SelectLevel4" />
+              <Button CommandName="SelectLevel5" />
+              <Button CommandName="SelectLevelCurrent" /> 
+            </DropDownButton>
+          </Group>
+          <Group CommandName="GrpExpand">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="button1" />
+                <ControlNameDefinition Name="button2" />
+                <ControlNameDefinition Name="button3" />
+                <ControlNameDefinition Name="button4" />
+                <ControlNameDefinition Name="button5" />
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large" >
+                <Row>
+                  <ControlSizeDefinition ControlName="button1" ImageSize="Small" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button2" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button3" ImageSize="Small" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button4" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button5" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <Button CommandName="ExpandAll" />
+            <Button CommandName="CollapseAll" />
+            <Button CommandName="ToggleCurrent" />
+            <Button CommandName="ToggleBranch" />
+            <SplitButton >
+              <Button CommandName="ExpandMapToCurrentLevel" />
+              <Button CommandName="ExpandMapToLevel1" />
+              <Button CommandName="ExpandMapToLevel2" />
+              <Button CommandName="ExpandMapToLevel3" />
+              <Button CommandName="ExpandMapToLevel4" />
+              <Button CommandName="ExpandMapToLevel5" />
+            </SplitButton>
+          </Group>
+          <Group CommandName="GrpNavigate" SizeDefinition="OneButton">
+            <SplitButton>
+              <SplitButton.MenuGroups>
+                <MenuGroup Class="MajorItems">
+                  <Button CommandName="NavigateToCenter" />
+                </MenuGroup>
+                <MenuGroup Class="MajorItems">
+                  <Button CommandName="NavigateToFirstSibling" />
+                  <Button CommandName="NavigateToLastSibling" />
+                </MenuGroup>
+              </SplitButton.MenuGroups>
+            </SplitButton>
+          </Group>
+          <Group CommandName="GrpMove">
+            <Button CommandName="MoveUp" />
+            <Button CommandName="MoveDown" />
+          </Group>
+          <Group CommandName="GrpSort">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="button1" />
+                <ControlNameDefinition Name="button2" />
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large" >
+                <Row>
+                  <ControlSizeDefinition ControlName="button1" ImageSize="Large" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button2" ImageSize="Small" IsLabelVisible="false" />
+                </Row>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <SplitButton>
+              <SplitButton.MenuGroups>
+                <MenuGroup Class="MajorItems">
+                  <Button CommandName="SortAlphabetic"/>
+                </MenuGroup>
+                <MenuGroup Class="MajorItems">
+                  <Button CommandName="SortDueDate" />
+                </MenuGroup>
+                <MenuGroup Class="MajorItems">
+                  <Button CommandName="SortNodeCount" />
+                </MenuGroup>
+                <MenuGroup>
+                  <Button CommandName="SortCreateDate"/>
+                  <Button CommandName="SortModifiedDate"/>
+                </MenuGroup>
+              </SplitButton.MenuGroups>
+            </SplitButton>
+            <ToggleButton CommandName="SortOrder"/>
+          </Group>
+          <Group CommandName="GrpUndo" SizeDefinition="TwoButtons">
+            <Button CommandName="Undo" />
+            <Button CommandName="Redo" />
+          </Group>
+        </Tab>
+        <Tab CommandName="TabInsert">
+          <Group CommandName="GrpHyperlink" >
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="button1" />
+                <ControlNameDefinition Name="button2" />
+                <ControlNameDefinition Name="button3" />
+                <ControlNameDefinition Name="button4" />
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large" >
+                <ControlGroup>
+                  <ControlSizeDefinition ControlName="button1" ImageSize="Large" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button2" ImageSize="Large" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button3" ImageSize="Large" IsLabelVisible="true" />
+                </ControlGroup>
+                <ColumnBreak ShowSeparator="true"/>
+                <ControlGroup>
+                  <ControlSizeDefinition ControlName="button4" ImageSize="Large" IsLabelVisible="true" />
+                </ControlGroup>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <Button CommandName="Hyperlink" />
+            <Button CommandName="HyperlinkFile" />
+            <Button CommandName="HyperlinkFolder" />
+            <Button CommandName="RemoveHyperlink" />
+          </Group>
+          <Group CommandName="GrpNote" SizeDefinition="OneButton">
+            <Button CommandName="InsertNote" />
+          </Group>
+          <Group CommandName="GrpTask">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="button1" />
+                <ControlNameDefinition Name="button2" />
+                <ControlNameDefinition Name="button3" />
+                <ControlNameDefinition Name="button4" />
+                <ControlNameDefinition Name="button5" />
+                <ControlNameDefinition Name="button6" />
+                <ControlNameDefinition Name="button7" />
+                <ControlNameDefinition Name="button8" />
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large" >
+                <ControlGroup>
+                  <ControlSizeDefinition ControlName="button1" ImageSize="Large" IsLabelVisible="true" />
+                </ControlGroup>
+                <ColumnBreak ShowSeparator="true"/>
+                <ControlGroup>
+                  <ControlSizeDefinition ControlName="button2" ImageSize="Large" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button3" ImageSize="Large" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button4" ImageSize="Large" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button5" ImageSize="Large" IsLabelVisible="true" />
+                  <ControlSizeDefinition ControlName="button6" ImageSize="Large" IsLabelVisible="true" />
+                </ControlGroup>
+                <ColumnBreak ShowSeparator="true"/>
+                <ControlGroup>
+                  <ControlSizeDefinition ControlName="button7" ImageSize="Large" IsLabelVisible="true" />
+                </ControlGroup>
+                <ColumnBreak ShowSeparator="true"/>
+                <ControlGroup>
+                  <ControlSizeDefinition ControlName="button8" ImageSize="Large" IsLabelVisible="true" />
+                </ControlGroup>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <Button CommandName="AddTask" />
+            <Button CommandName="AddTaskToday" />
+            <Button CommandName="AddTaskTomorrow" />
+            <Button CommandName="AddTaskNextWeek" />
+            <Button CommandName="AddTaskNextMonth" />
+            <Button CommandName="AddTaskNextQuarter" />
+            <Button CommandName="CompleteTask" />
+            <Button CommandName="RemoveTask" />
+          </Group>
+        </Tab>
+        <Tab CommandName="TabFormat" >
+          <Group CommandName="GrpNodeFormat" >
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="button1" />
+                <ControlNameDefinition Name="button2" />
+                <ControlNameDefinition Name="button3" />
+                <ControlNameDefinition Name="button4" />
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large" >
+                <Row>
+                  <ControlSizeDefinition ControlName="button1" ImageSize="Large" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button2" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button3" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+                <Row>
+                  <ControlSizeDefinition ControlName="button4" ImageSize="Small" IsLabelVisible="true" />
+                </Row>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <DropDownGallery CommandName="NodeShape" HasLargeItems="true" >
+              <DropDownGallery.MenuLayout>
+                <VerticalMenuLayout Rows="4"
+                                    Gripper="None" />
+              </DropDownGallery.MenuLayout>
+              <Button CommandName="ClearShapeFormat" />
+            </DropDownGallery>
+            <DropDownColorPicker CommandName="LineColor" IsNoColorButtonVisible="false"/>
+            <DropDownButton CommandName="LinePattern" >
+              <Button CommandName="LinePatternSolid" />
+              <Button CommandName="LinePatternDashed" />
+              <Button CommandName="LinePatternDotted" />
+              <Button CommandName="LinePatternMixed" />
+            </DropDownButton>
+            <DropDownButton CommandName="LineThickness" >
+              <Button CommandName="LineThickness1" />
+              <Button CommandName="LineThickness2" />
+              <Button CommandName="LineThickness4" />
+            </DropDownButton>
+          </Group>
+          <Group CommandName="GrpNodeStyle" SizeDefinition="OneInRibbonGallery">
+            <InRibbonGallery CommandName="NodeStyleGallery" Type="Items" MinColumnsLarge="2" MaxColumnsMedium="2" MinColumnsMedium="1" MaxColumns="4" MaxRows="4" TextPosition="Bottom">
+              <InRibbonGallery.MenuLayout>
+                <FlowMenuLayout />
+              </InRibbonGallery.MenuLayout>
+              <InRibbonGallery.MenuGroups>
+                <MenuGroup>
+                  <Button CommandName="CreateNodeStyle" />
+                </MenuGroup>
+              </InRibbonGallery.MenuGroups>
+            </InRibbonGallery>
+          </Group>
+          <Group CommandName="GrpClearFormat" SizeDefinition="OneButton">
+            <Button CommandName="ClearFormatting" />
+          </Group>
+        </Tab>
+        <Tab CommandName="TabView" >
+          <Group CommandName="GrpViewTask" SizeDefinition="TwoButtons">
+            <Button CommandName="ViewCalendar"/>
+            <Button CommandName="ViewTaskList"/>
+          </Group>
+          <Group CommandName="GrpViewNote" SizeDefinition="OneButton">
+            <Button CommandName="ViewNote"/>
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+      <Ribbon.SizeDefinitions>
+        <SizeDefinition Name="EightSmallButtons">
+          <ControlNameMap>
+            <ControlNameDefinition Name="btn1"/>
+            <ControlNameDefinition Name="btn2"/>
+            <ControlNameDefinition Name="btn3"/>
+            <ControlNameDefinition Name="btn4"/>
+            <ControlNameDefinition Name="btn5"/>
+            <ControlNameDefinition Name="btn6"/>
+            <ControlNameDefinition Name="btn7"/>
+            <ControlNameDefinition Name="btn8"/>            
+          </ControlNameMap>
+          <GroupSizeDefinition Size="Large">
+            <Row>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn1" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn2" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn3" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn4" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>              
+            </Row>
+            <Row>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn5" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn6" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn7" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn8" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>
+            </Row>
+          </GroupSizeDefinition>
+          <GroupSizeDefinition Size="Medium">
+            <Row>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn1" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn2" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn3" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn4" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>              
+            </Row>
+            <Row>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn5" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn6" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn7" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn8" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>
+            </Row>
+          </GroupSizeDefinition>
+          <GroupSizeDefinition Size="Small">
+            <Row>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn1" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn2" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn3" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn4" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>              
+            </Row>
+            <Row>
+              <ControlGroup>
+                <ControlSizeDefinition ControlName="btn5" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn6" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn7" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+                <ControlSizeDefinition ControlName="btn8" ImageSize="Small" IsImageVisible="true" IsLabelVisible="false"/>
+              </ControlGroup>
+            </Row>
+          </GroupSizeDefinition>
+        </SizeDefinition>
+      </Ribbon.SizeDefinitions>
+      <Ribbon.ContextualTabs>
+        <TabGroup CommandName="TabGroupNote">
+          <Tab CommandName="TabNoteEditor">
+            <Tab.ScalingPolicy>
+              <ScalingPolicy>
+                <ScalingPolicy.IdealSizes>
+                  <Scale Group='GrpNoteStyles' Size='Large' />
+                </ScalingPolicy.IdealSizes>
+                <Scale Group='GrpNoteStyles' Size='Medium' />
+                <Scale Group='GrpNoteStyles' Size='Small' />
+              </ScalingPolicy>
+            </Tab.ScalingPolicy>
+            <Group CommandName="GrpNoteFont">
+              <FontControl CommandName="RichFont" FontType="RichFont" ShowTrueTypeOnly="true"/>
+            </Group>
+            <Group CommandName="GrpNoteClearFormat" SizeDefinition="OneButton">
+              <Button CommandName="ClearFormatting" />
+            </Group>
+            <Group CommandName="GrpParagraph" SizeDefinition="EightSmallButtons">
+              <Button CommandName="Bullets"/>
+              <Button CommandName="Numbers"/>
+              <Button CommandName="Outdent"/>
+              <Button CommandName="Indent" />              
+              <Button CommandName="AlignLeft"/>
+              <Button CommandName="AlignCenter"/>
+              <Button CommandName="AlignRight"/>
+              <Button CommandName="Justify"/>            
+            </Group>
+            <Group CommandName="GrpNoteStyles" SizeDefinition="FourButtons">
+              <Button CommandName="NoteHeading1" />
+              <Button CommandName="NoteHeading2" />
+              <Button CommandName="NoteHeading3" />
+              <Button CommandName="NoteNormal" />
+            </Group>
+            <Group CommandName="GrpNoteTable" SizeDefinition="OneButton">
+              <Button CommandName="NoteInsertTable" />
+            </Group>
+            <Group CommandName="GrpNoteEditHtml" SizeDefinition="OneButton">
+              <Button CommandName="NoteEditHtml" />
+            </Group>
+          </Tab>
+        </TabGroup>
+        <TabGroup CommandName="TabGroupNoteTable">
+          <Tab CommandName="TabNoteTableLayout">
+            <Tab.ScalingPolicy>
+              <ScalingPolicy>
+                <ScalingPolicy.IdealSizes>
+                  <Scale Group="GrpCustomizeTable" Size="Large"/>
+                  <Scale Group="GrpTableInsert" Size="Medium"/>
+                  <Scale Group="GrpTableMove" Size="Medium"/>
+                  <Scale Group="GrpTableDelete" Size="Medium"/>
+                </ScalingPolicy.IdealSizes>
+                <Scale Group="GrpTableDelete" Size="Popup"/>
+              </ScalingPolicy>
+            </Tab.ScalingPolicy>
+            <Group CommandName="GrpCustomizeTable" SizeDefinition="OneButton">
+              <Button CommandName="ModifyTableProperties"/>
+            </Group>
+            <Group CommandName="GrpTableDelete" SizeDefinition="ThreeButtons" >
+              <Button CommandName="DeleteRow"/>
+              <Button CommandName="DeleteColumn"/>
+              <Button CommandName="DeleteTable"/>
+            </Group>
+            <Group CommandName="GrpTableInsert" SizeDefinition="FourButtons" >
+              <Button CommandName="InsertRowAbove"/>
+              <Button CommandName="InsertRowBelow"/>
+              <Button CommandName="InsertColumnLeft"/>
+              <Button CommandName="InsertColumnRight"/>
+            </Group>
+            <Group CommandName="GrpTableMove" SizeDefinition="FourButtons" >
+              <Button CommandName="MoveRowUp"/>
+              <Button CommandName="MoveRowDown"/>
+              <Button CommandName="MoveColumnLeft"/>
+              <Button CommandName="MoveColumnRight"/>
+            </Group>
+          </Tab>
+        </TabGroup>
+      </Ribbon.ContextualTabs>
+    </Ribbon>
+  </Application.Views>
+
+</Application>
+
